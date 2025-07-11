@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.E.R.A.P.H. | System Interface</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --background-color: #0a0a0f;
+            --container-color: rgba(15, 20, 35, 0.75);
+            --text-color: #e0e0e0;
+            --accent-color: #00ffff;
+            --accent-glow: rgba(0, 255, 255, 0.5);
+            --user-bubble-color: #2a3a5e;
+            --font-primary: 'Roboto', sans-serif;
+            --font-display: 'Rajdhani', sans-serif;
+        }
+
+        @keyframes moveGrid {
+            from { background-position: 0 0; }
+            to { background-position: 100px 100px; }
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            /* Efeito de grade no fundo */
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: moveGrid 5s linear infinite;
+        }
+
+        #chat-container {
+            width: 90%;
+            max-width: 700px;
+            height: 90vh;
+            background: var(--container-color);
+            border-radius: 12px;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 25px var(--accent-glow);
+            display: flex;
+            flex-direction: column;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        #header {
+            padding: 15px 25px;
+            font-family: var(--font-display);
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent-color);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+            text-shadow: 0 0 5px var(--accent-glow);
+        }
+
+        #chat-box {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 25px;
+        }
+        #chat-box::-webkit-scrollbar { width: 6px; }
+        #chat-box::-webkit-scrollbar-track { background: transparent; }
+        #chat-box::-webkit-scrollbar-thumb { background: var(--accent-color); border-radius: 3px; }
+
+        .message {
+            margin-bottom: 20px;
+            padding: 12px 18px;
+            border-radius: 8px;
+            max-width: 85%;
+            line-height: 1.5;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .user {
+            background-color: var(--user-bubble-color);
+            color: white;
+            align-self: flex-end;
+            margin-left: auto;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .bot {
+            background-color: transparent;
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            align-self: flex-start;
+        }
+        
+        .bot strong {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .loading-indicator {
+            display: flex;
+            align-items: center;
+        }
+        .loading-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--accent-color);
+            margin: 0 3px;
+            animation: pulse 1.4s infinite ease-in-out both;
+        }
+        .loading-indicator span:nth-child(1) { animation-delay: -0.32s; }
+        .loading-indicator span:nth-child(2) { animation-delay: -0.16s; }
+        @keyframes pulse {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1.0); }
+        }
+
+
+        #chat-form {
+            display: flex;
+            padding: 20px;
+            border-top: 1px solid rgba(0, 255, 255, 0.2);
+        }
+
+        #user-input {
+            flex-grow: 1;
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 12px 18px;
+            font-size: 16px;
+            color: var(--text-color);
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        #user-input:focus {
+            border-color: var(--accent-color);
+        }
+        #user-input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        button {
+            background: var(--accent-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            margin-left: 15px;
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        button:hover {
+            background-color: #fff;
+            box-shadow: 0 0 15px #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="header">S.E.R.A.P.H.</div>
+        <div id="chat-box">
+            <div class="message bot">
+                <p><strong>S.E.R.A.P.H. Online.</strong></p>
+                <p>Strategic Evaluation & Response Analysis for Paranormal Hazards.</p>
+                <p>Aguardando sua consulta.</p>
+            </div>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Insira sua consulta ou comando..." autocomplete="off" required>
+            <button type="submit">></button>
+        </form>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+
+        let lastUserMessage = '';
+        let lastBotResponse = '';
+
+        function addMessage(text, sender) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message', sender);
+            messageElement.innerHTML = text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') 
+                .replace(/\n/g, '<br>'); 
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+        
+        function showLoadingIndicator() {
+            const messageElement = document.createElement('div');
+            messageElement.id = 'loading-indicator';
+            messageElement.classList.add('message', 'bot');
+            messageElement.innerHTML = `
+                <div class="loading-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            `;
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function hideLoadingIndicator() {
+            const loadingElement = document.getElementById('loading-indicator');
+            if (loadingElement) {
+                loadingElement.remove();
+            }
+        }
+
+        chatForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userMessage = userInput.value.trim();
+            if (!userMessage) return;
+
+            addMessage(userMessage, 'user');
+            userInput.value = '';
+            showLoadingIndicator();
+
+            try {
+                const response = await fetch('/.netlify/functions/ask-gemini', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        question: userMessage,
+                        history: {
+                            user: lastUserMessage,
+                            bot: lastBotResponse
+                        }
+                    })
+                });
+
+                hideLoadingIndicator();
+
+                if (!response.ok) {
+                    throw new Error('Falha na comunicação com o sistema SERAPH.');
+                }
+
+                const data = await response.json();
+                addMessage(data.answer, 'bot');
+
+                lastUserMessage = userMessage;
+                lastBotResponse = data.answer;
+
+            } catch (error) {
+                hideLoadingIndicator();
+                console.error('Erro de Sistema:', error);
+                addMessage('<strong>[ERRO DE CONEXÃO]</strong> Não foi possível estabelecer comunicação com o núcleo da S.E.R.A.P.H. Verifique sua conexão e tente novamente.', 'bot');
+            }
+        });
+    </script>
+</body>
+</html>

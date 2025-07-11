@@ -1,0 +1,995 @@
+[
+  {
+    "id": "primeiro_despertar",
+    "tipo": "lore",
+    "titulo": "Primeiro Despertar",
+    "descricao": "Tudo começou com 'O Primeiro Despertar' em 3 de novembro de 2004, quando uma luz misteriosa surgiu nos céus, banhando a Terra por segundos. As interpretações sobre o evento variaram: alguns viram um salvador, outros um cataclismo, e alguns defenderam ter sido apenas um evento astrológico[cite: 2]. Independentemente da causa, é inegável que o mundo foi alterado[cite: 3]. A princípio, a única mudança foi o medo que se espalhou entre as pessoas[cite: 4]. Os cientistas não conseguiram dar explicações conclusivas, restando apenas a fé[cite: 5]. Meses depois, anomalias genéticas começaram a surgir, com indivíduos capazes de metamorfosear seus corpos e manipular o ambiente[cite: 6, 7]. No início, havia descrença, com apenas rumores e poucos vídeos de feitos como voar ou mover objetos com a mente[cite: 8]. Os chamados 'despertados' hesitavam em se revelar por medo da reação pública[cite: 9]. Com o tempo, eles começaram a sair das sombras ao redor do mundo[cite: 10]. Todos compartilhavam uma marca em comum, a 'Cicatriz de Saturno', com o formato do planeta, que podia aparecer em qualquer parte do corpo[cite: 11]. A população inicialmente ficou entusiasmada, acreditando que também poderiam ser escolhidos[cite: 12]. No entanto, algumas pessoas receberam uma maldição: a capacidade de transmitir a cicatriz sem tê-la[cite: 13]. Mulheres com essa condição geravam crianças com a marca, mas nenhuma mãe sobrevivia ao parto[cite: 14]. Essas mortes, somadas ao surgimento de despertados que usavam suas habilidades para o mal, geraram revolta na população comum[cite: 15]. A incerteza sobre como identificar as 'cicatrizes dormentes' em gestantes levou a uma queda drástica na taxa de natalidade mundial, pois muitas pessoas passaram a evitar a gravidez[cite: 18]."
+  },
+  {
+    "id": "orfanato_aion",
+    "tipo": "local",
+    "titulo": "Orfanato Aion",
+    "localizacao": "O orfanato está situado na capital de São Paulo, chamada Albaresco[cite: 24]. Albaresco foi considerada a capital de São Paulo em 2017, devido à estabilidade trazida pelos Defensores de Saturno[cite: 25].",
+    "descricao_geral": "A estrutura é uma mansão de aparência comum, e poucas pessoas sabem o que acontece lá dentro ou sobre a existência das crianças[cite: 26]. O orfanato é um lugar relativamente isolado, e as crianças têm contato limitado com o mundo exterior, precisando de permissão do Sr. Cronwell para sair[cite: 34, 35].",
+    "fundador_e_proposito": "Com o surgimento de muitos órfãos despertados, um filantropo chamado Sr. Cronwell estabeleceu o 'Orfanato Aion', um pequeno orfanato privado para acolher essas crianças, orientá-las no uso de suas habilidades e prepará-las para o futuro[cite: 19]. Alguns chegaram bebês, outros mais velhos, mas todos receberam uma chance de recomeçar[cite: 20, 21].",
+    "moradores_e_rotina": {
+      "proprietario": "Sr. Cronwell, o proprietário, é uma figura imponente e respeitada[cite: 27]. Apesar de autoritário, sua dedicação ao bem-estar das crianças é evidente, tratando-as com carinho, cuidado, sabedoria e paciência[cite: 28, 29]. Todas as crianças foram encontradas e adotadas por ele[cite: 30].",
+      "criancas": "Atualmente, existem 12 crianças no orfanato, separadas em duas turmas: uma com 8 crianças de 11 a 13 anos (Turma Ω) e outra com 4 crianças de 6 a 9 anos (Turma α)[cite: 31, 38, 127].",
+      "treinamento": "As crianças são submetidas a um treinamento para aprimorar suas habilidades e se preparar para combater o 'crime'[cite: 32]. O treinamento inclui aulas teóricas, treinamento físico, prática de combate e desenvolvimento de controle sobre seus poderes[cite: 33].",
+      "rotina_diaria": "Todas as crianças fazem as refeições juntas no salão de jantar quando o sino toca[cite: 36]. Pela manhã, participam de aulas e treinamentos separados por turma. À tarde, ocorrem treinamentos práticos ocasionais ou as crianças têm horário livre[cite: 37]."
+    }
+  },
+  {
+    "id": "defensores_de_saturno",
+    "tipo": "organizacao",
+    "titulo": "Defensores de Saturno",
+    "descricao": "É um grupo de cinco 'heróis' benfeitores dedicados ao combate à injustiça e ao crime, atuando como a primeira linha de defesa nacional contra ameaças, principalmente de despertados[cite: 195]. A equipe foi fundada em 2014, sem afiliação governamental, para manter a ordem e a paz entre despertados e humanos[cite: 16]. O objetivo principal era diminuir o medo e a opressão sobre os despertados[cite: 196]. Com o passar dos anos, a equipe conquistou a aprovação da população, tornando-se um símbolo de paz e união[cite: 197]. A eficácia da equipe, apesar do preconceito, contribuiu para melhorar a opinião pública sobre os despertados[cite: 17]. Sua sede atual fica em Albaresco[cite: 197].",
+    "membros_conhecidos": [
+      "Titã (Dr. Vital Pavan)",
+      "Bestiário",
+      "Madame Ímpeto",
+      "Elastor",
+      "Sirius"
+    ]
+  },
+  {
+    "id": "nathaniel_m",
+    "tipo": "personagem",
+    "nome_completo": "Nathaniel M. (Nath; Nathan; Niel)",
+    "idade": 12,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "aparencia": "Nathaniel é um garoto de pele pálida e cabelos pretos[cite: 38]. Ele usa óculos escuros que escondem seus olhos opacos devido à cegueira[cite: 39]. Seu estilo de roupa é simples, com peças pretas apertadas e um suspensório acinzentado, dispensando acessórios[cite: 40].",
+    "personalidade": "Ele fala pouco com seus colegas, com exceção de Laura Rosa, e geralmente só interage por necessidade, embora nunca seja rude[cite: 41, 42]. Uma aura de estranheza o cerca, transmitida pela falta de contato visual e por suas expressões neutras[cite: 43]. Seu humor varia entre amigável e apático[cite: 44].",
+    "poder": {
+      "nome": "Manha do Gato [cite: 45]",
+      "descricao": "Nathan é um metamorfo que se transforma em um gato preto[cite: 45]. Seus colegas o veem mais em sua forma felina do que humana[cite: 46]. Ele prefere a forma de gato sempre que suas capacidades humanas não são necessárias[cite: 47]. O motivo dessa preferência é um mistério[cite: 48]. Como gato, ele tem porte médio, pelos pretos e olhos azuis inquietos, através dos quais ele enxerga o mundo[cite: 49, 50]. Sua consciência humana interfere em seus instintos de caça, mas aos poucos, ele adere mais aos costumes felinos[cite: 51, 52]."
+    }
+  },
+  {
+    "id": "wisteria_d",
+    "tipo": "personagem",
+    "nome_completo": "Wistéria D. (Wis)",
+    "idade": 11,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "aparencia": "Wistéria tem albinismo, com cabelos brancos e olhos avermelhados[cite: 53]. Ela é sensível ao sol, por isso quase sempre usa óculos escuros redondos e roupas longas, como um suéter vermelho largo e um colar de miçangas[cite: 53]. Seu braço esquerdo é visivelmente mais fino, frágil e quase todo cinza[cite: 54]. Sua 'Cicatriz de Saturno' localiza-se entre as clavículas, no centro do peito[cite: 55].",
+    "personalidade": "Wis é educada, muito tímida e tem dificuldade em se comunicar[cite: 56]. Por outro lado, é carinhosa, empática e prestativa com seus colegas[cite: 56]. Às vezes, ela se isola por medo de afetar os outros com seus poderes[cite: 57].",
+    "poder": {
+      "nome": "Troca Equivalente [cite: 58]",
+      "descricao": "Seu poder é curar, mas para isso, ela precisa ferir alguém[cite: 58]. Sua mão esquerda 'drena' a vitalidade, causando desde fadiga até dores severas, para 'energizar' sua mão direita, que distribui a vitalidade para curar[cite: 59]. Ela não tem controle sobre os efeitos; tocar alguém com a mão esquerda, intencionalmente ou não, acaba ferindo a pessoa ou a si mesma[cite: 60, 61]."
+    }
+  },
+  {
+    "id": "laura_rosa",
+    "tipo": "personagem",
+    "nome_completo": "Laura Rosa",
+    "idade": 13,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "aparencia": "Laura Rosa é uma garota negra de olhos verdes[cite: 62]. Ela tem vitiligo, com marcas pálidas em sua pele[cite: 62]. Seus cabelos castanhos são cacheados e curtos, com duas mechas mais compridas e alguns fios brancos[cite: 63]. Possui um corpo atlético e veste roupas confortáveis, usando laços no cabelo como acessório característico[cite: 64]. Sua cicatriz de Saturno fica no antebraço direito[cite: 64].",
+    "personalidade": "Ela é muito aberta, amigável e compreensiva[cite: 65]. Se dá bem com todos no orfanato, sendo especialmente próxima de Nathaniel[cite: 66]. Age como uma irmã mais velha para as crianças, por conta de sua personalidade mediadora[cite: 67]. Seu maior desejo é ajudar e apoiar todos ao seu redor[cite: 68]. Ela sempre se esforça para ser uma boa amiga e não se importa com a falta de reciprocidade[cite: 69]. Está no orfanato desde que nasceu[cite: 70].",
+    "poder": {
+      "nome": "Impavidez Bestial [cite: 71]",
+      "descricao": "Laura Rosa pode se comunicar com animais, juntando sua mente à do animal escolhido[cite: 71, 72]. Ela tem mais facilidade com animais temidos ou rejeitados por humanos, como os insetos que esconde sob os laços e os ratos de rua que leva em seu casaco[cite: 73, 74]. O uso do poder causa fadiga, e quando cansada, sua mente tem dificuldade em se desconectar do último animal[cite: 75]. Para se recuperar, ela precisa satisfazer o desejo do animal, como se alimentar do que ele come[cite: 76]."
+    }
+  },
+  {
+    "id": "dante_perpetua",
+    "tipo": "personagem",
+    "nome_completo": "Dante Perpétua (Dan)",
+    "idade": 13,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "palavra_chave": "Bondade [cite: 79]",
+    "aparencia": "Dan é alto para sua idade (1,68m), com pele extremamente branca e sensível, preferindo usar moletons[cite: 77]. Tem rosto fino com sardas, olhos azul-marinho geralmente cobertos por óculos de grau, e cabelo castanho liso repartido ao meio[cite: 77]. Sua 'Cicatriz de Saturno' está na palma da mão direita[cite: 78].",
+    "personalidade": "Ele é muito calmo e bondoso. Por ser um dos mais velhos (chegou aos 5 anos), ele incentiva e ajuda os outros, atuando como mediador em tensões[cite: 79]. É apegado aos amigos e adora falar e anotar sobre plantas, passando muito tempo no jardim do orfanato[cite: 79].",
+    "poder": {
+      "nome": "Manipulação do Espaço Dimensional [cite: 80]",
+      "descricao": "Dante pode criar portais de 'entrada' e 'saída' em qualquer lugar que ele toca com a mão direita ou com o qual tem familiaridade[cite: 80]. Ele tem um 'estoque' de portais, e lugares mais diferentes consomem mais desse estoque. Apenas ele pode usar os portais, e geralmente precisa tocar a superfície onde o portal será criado. Quando há pessoas por perto, ele precisa anunciar onde a 'saída' será[cite: 81]."
+    }
+  },
+  {
+    "id": "emilia_brito",
+    "tipo": "personagem",
+    "nome_completo": "Emília Brito (Emí)",
+    "idade": 12,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "aparencia": "Emília mede 1,50m, tem cabelo escuro, longo e bagunçado, e olhos castanhos-claros alaranjados[cite: 82, 83]. Possui sardas nas bochechas e ombros[cite: 83]. Tem uma fina cicatriz abaixo da orelha, geralmente coberta pelo cabelo[cite: 84]. Veste roupas largas em tons de cinza, branco e preto, e usa sempre o mesmo colar e uma mochila laranja desbotada[cite: 85, 86]. É comum vê-la com balões coloridos ao redor[cite: 87].",
+    "personalidade": "Emí é retraída, criativa e curiosa[cite: 88]. Gosta de conversar sozinha e não esconde isso[cite: 89]. Tem dificuldade de se concentrar em coisas externas e costuma dissociar[cite: 90]. Não gosta de ficar sozinha e busca a companhia de outras crianças, mesmo que prefira não interagir com pessoas novas[cite: 91, 92]. Às vezes, pode ser rude sem perceber[cite: 93].",
+    "poder": {
+      "nome": "Fora do Ar [cite: 94]",
+      "descricao": "Emília controla o Hélio (He)[cite: 94]. Ela descobriu seu poder aos 4 anos, em sua festa de aniversário[cite: 95]. Antes, pensava-se que ela controlava o ar, mas tinha dificuldade em testes específicos[cite: 96]. Ela ainda não tem controle total e, para canalizar sua energia, enche as bochechas de ar, o que a impede de falar enquanto usa o poder[cite: 97, 98]. Ela pode modificar a própria voz inalando o gás, mas pode ficar tonta se inalar muito[cite: 99, 100, 101]."
+    }
+  },
+  {
+    "id": "alice_martins",
+    "tipo": "personagem",
+    "nome_completo": "Alice Martins",
+    "idade": 11,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "aparencia": "Alice é baixinha e gordinha para sua idade, com 1,38m e 45kg[cite: 102]. Tem cabelos ruivos, curtos e bagunçados, olhos verdes e pele escura como café com leite[cite: 102, 103, 104]. Veste um shorts larguinho e uma blusa com estampa de um sapinho pilotando um avião[cite: 104]. Suas pernas têm vários machucadinhos de criança[cite: 105]. Geralmente está com seu cubo mágico ou um ioiô[cite: 106].",
+    "personalidade": "É tímida com quem não conhece[cite: 107]. É obcecada por aviões e sonha em ser pilota[cite: 108]. É bastante sensível, gentil e apegada ao pai dela[cite: 109].",
+    "poder": {
+      "nome": "Duplicata [cite: 110]",
+      "descricao": "Alice se multiplica em várias 'Alices' quando sente uma emoção muito forte[cite: 110]. Cada clone fica com um sentimento diferente[cite: 111]."
+    }
+  },
+  {
+    "id": "ruben",
+    "tipo": "personagem",
+    "nome_completo": "Ruben",
+    "idade": 11,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "palavra_chave": "Sacrifício [cite: 120]",
+    "aparencia": "Ruben é um menino de estatura baixa, pele escura e cabelos negros e encaracolados[cite: 113].",
+    "personalidade": "Ele tem uma personalidade reservada, preferindo ler ou observar as outras crianças[cite: 113]. É um dos alunos mais inteligentes e com melhor desempenho nas aulas teóricas[cite: 114]. Passa a maior parte do tempo com seu melhor amigo, Thiago, com quem chegou ao orfanato aos cinco anos[cite: 115, 116].",
+    "poder": {
+      "nome": "Empatia Angustiante [cite: 117]",
+      "descricao": "Ele pode sentir as emoções de outras pessoas ao tocá-las e até alterar esses sentimentos[cite: 117]. No entanto, isso frequentemente lhe causa fortes dores de cabeça e, em casos extremos, ele é sobrecarregado por uma versão intensificada do sentimento da pessoa[cite: 118]. Ele também pode absorver a dor dos outros, resultando em seu próprio sofrimento[cite: 119]."
+    }
+  },
+  {
+    "id": "thiago",
+    "tipo": "personagem",
+    "nome_completo": "Thiago",
+    "idade": 12,
+    "afiliacao": "Orfanato Aion (Turma Ω)",
+    "palavra_chave": "Resplandecência [cite: 126]",
+    "aparencia": "Thiago mede 1,60m, tem pele branca, cabelos loiros que tendem ao avermelhado em mechas médias e longas, e olhos verdes[cite: 121].",
+    "personalidade": "Ele tem uma personalidade vibrante e extrovertida, com uma honestidade franca que reflete sua inocência[cite: 121]. É sempre ativo, participativo e um dos mais disciplinados nos treinamentos físicos[cite: 121]. Está sempre com seu melhor amigo Ruben, defendendo-o[cite: 122]. Chegou ao orfanato junto com Ruben aos cinco anos[cite: 123].",
+    "poder": {
+      "nome": "Harmonia Sônica [cite: 124]",
+      "descricao": "Ele é capaz de manipular as ondas sonoras do ambiente e as produzidas por ele[cite: 124]. Por causa de sua peculiaridade, ele tem uma imensa sensibilidade ao som e precisa usar aparelhos auditivos especiais[cite: 124]. O uso contínuo de sua habilidade causa distorções sensoriais e desorientação[cite: 124]. Sr. Cronwell às vezes realiza treinamentos especiais com ele e Ruben para amenizar os efeitos colaterais[cite: 125]."
+    }
+  },
+  {
+    "id": "augustus_cronwell_levin",
+    "tipo": "personagem",
+    "nome_completo": "Sr. Augustus Cronwell Levin",
+    "idade": "Cerca de 40 anos",
+    "afiliacao": "Orfanato Aion (Fundador e Proprietário)",
+    "aparencia": "Sr. Cronwell tem olhos castanhos, pele escura e cabelos pretos longos[cite: 148]. Ele veste uma camiseta social violeta com um colete roxo escuro, calça social branca e sapatos pretos[cite: 149].",
+    "personalidade_e_papel": "É o fundador do Orfanato Aion e foi quem trouxe todas as crianças para a mansão[cite: 150]. É uma figura imponente e respeitada, um pouco autoritário, mas sua dedicação ao bem-estar e desenvolvimento das crianças é evidente[cite: 27, 28]. Trata-as com carinho, cuidado, sabedoria e paciência[cite: 29]."
+  },
+  {
+    "id": "bardon_levin_cronwell",
+    "tipo": "personagem",
+    "nome_completo": "Bardon Levin Cronwell",
+    "idade": "Cerca de 40 anos",
+    "afiliacao": "Orfanato Aion",
+    "aparencia": "Bardon tem pele branca, olhos azuis e cabelos brancos longos e volumosos[cite: 151]. Veste uma regata social preta, jaqueta de couro preta desfiada, calças cargo pretas e grandes botas marrons[cite: 151]. Possui diversas tatuagens no braço[cite: 152].",
+    "personalidade_e_papel": "Ele é casado com Augustus e está no orfanato desde sua criação[cite: 153]. É extremamente solidário e gentil, principalmente com as crianças mais novas, oferecendo todo tipo de apoio[cite: 154]. Diferente de seu parceiro, Bardon tem uma natureza mais despreocupada, mas adota uma personalidade muito diferente quando se trata da segurança das crianças[cite: 154]. Ele cuida da adaptação dos recém-chegados, dá aulas para os mais jovens e cuida da maioria dos afazeres do orfanato, como cozinhar e limpar[cite: 155, 156]. Apesar disso, aparenta ter uma inteligência excepcional, sendo responsável por criar as tecnologias e equipamentos para as crianças em seu escritório cheio de máquinas[cite: 156, 158].",
+    "poder": {
+      "nome": "Segredo",
+      "descricao": "Bardon possui uma peculiaridade, mas brinca com as crianças alegando que é um segredo, o que se tornou um desafio para as crianças mais novas descobrirem[cite: 159]. Sua cicatriz de saturno se encontra no seu pulso direito[cite: 160]."
+    }
+  },
+  {
+    "id": "tiresa",
+    "tipo": "personagem",
+    "nome_completo": "Tiresa",
+    "idade": 14,
+    "afiliacao": "Orfanato Aion",
+    "aparencia": "Tiresa é a criança mais velha do orfanato. Tem 1,43m de altura, pele e cabelos longos totalmente brancos e olhos esbranquiçados, mas não é cega[cite: 161]. Ela veste um grande manto laranja escuro sobre um vestido violeta[cite: 162]. Sua cicatriz de saturno está marcada suavemente na sua bochecha direita[cite: 169].",
+    "personalidade_e_papel": "Foi a primeira órfã a chegar no orfanato e pouco se sabe sobre sua história[cite: 163]. Ela não participa das aulas ou treinamentos e raramente sai de seu quarto[cite: 164]. É vista infrequentemente andando pelos corredores, com postura curvada, frequentando a biblioteca e o jardim[cite: 165]. Possui uma personalidade excêntrica, quase nunca interagindo com as outras crianças, e se sente mais confortável apenas com Sr. Cronwell e Samantha[cite: 166]. Quando abordada, geralmente encara de volta ou ignora[cite: 167]. Augustus é frequentemente visto levando materiais de pintura para o quarto dela[cite: 168].",
+    "poder": {
+      "nome": "Desconhecido",
+      "descricao": "Nada se sabe sobre a peculiaridade da garota[cite: 169]."
+    }
+  },
+  {
+    "id": "pedro",
+    "tipo": "personagem",
+    "nome_completo": "Pedro",
+    "idade": 6,
+    "afiliacao": "Orfanato Aion (Turma α)",
+    "palavra_chave": "Simplório",
+    "aparencia": "Pedrinho tem pele branca, cabelos castanhos que caem sobre seus olhos e heterocromia, com um olho azul bebê e outro azul ciano[cite: 129]. Ele tem um amigo de meia chamado Beto[cite: 133].",
+    "personalidade": "Ele possui uma personalidade hiperativa e raramente fica parado, aquietando-se apenas na presença ou a pedido do Sr. Cronwell[cite: 130]. Gosta de falar sobre tudo e fica facilmente maravilhado por qualquer coisa, principalmente pelos alunos da turma Ω e seus poderes[cite: 131]. Seu sonho é virar um super-herói e sua coisa favorita é o tubarão martelo[cite: 132].",
+    "poder": {
+      "nome": "Super Teleporte Galáctico Universal de Coisas",
+      "descricao": "Sua peculiaridade, que ele chama de “Super Teleporte Galáctico Universal de Coisas” (embora o Sr. Cronwell afirme não ser um teleporte), permite que ele incorpore partes de seu corpo em uma superfície para criar versões maiores ou menores dessa parte em superfícies de materiais semelhantes[cite: 133]. Ele afirmou que, ao tocar em uma superfície, consegue “ver” outras superfícies com materiais parecidos[cite: 133]. Quando utiliza o poder, sua mobilidade fica extremamente debilitada e ele sente um forte formigamento no membro que incorporou[cite: 134]."
+    }
+  },
+  {
+    "id": "felix",
+    "tipo": "personagem",
+    "nome_completo": "Félix",
+    "idade": 9,
+    "afiliacao": "Orfanato Aion (Turma α)",
+    "palavra_chave": "Rejeição",
+    "aparencia": "Félix é uma criança de pele branca, cabelos lisos e pretos, e olhos da cor verde ciano[cite: 135].",
+    "personalidade": "Possui uma personalidade extremamente reservada, beirando o antissocial[cite: 136]. Ele passa a maior parte do tempo recluso em seu quarto ou sozinho, mas não age de maneira hostil com quem tenta interagir, falando normalmente e às vezes puxando conversa, embora prefira o isolamento[cite: 136].",
+    "poder": {
+      "nome": "Ponto Cego",
+      "descricao": "Quando ativada, sua peculiaridade cria um campo de exclusão ao seu redor, impedindo que qualquer pessoa olhe para ele, fazendo com que desviem o olhar involuntariamente[cite: 137, 138]. Félix descreve uma sensação arrepiante na espinha ao tentar se aproximar de alguém sob o efeito do poder, como se pressentisse algo terrível[cite: 138]. Ocasionalmente, a habilidade é ativada involuntariamente, fazendo-o se isolar ainda mais, exigindo muita concentração ou tempo para desativá-la[cite: 138]."
+    }
+  },
+  {
+    "id": "ametista",
+    "tipo": "personagem",
+    "nome_completo": "Ametista",
+    "idade": 8,
+    "afiliacao": "Orfanato Aion (Turma α)",
+    "palavra_chave": "Instabilidade",
+    "aparencia": "Ametista tem pele branca, cabelos loiros curtos e olhos de cor violeta[cite: 139].",
+    "personalidade": "Ela tem uma personalidade extrovertida, mas às vezes um pouco arrogante, principalmente com seus colegas de turma, que ela considera infantis (embora muitas vezes ria com eles)[cite: 140]. É muito destemida, competitiva e obstinada, rivalizando com os colegas sem motivo e defendendo-os sem hesitar[cite: 140].",
+    "poder": {
+      "nome": "Domínio das Dunas",
+      "descricao": "A peculiaridade de Ametista permite que ela manipule a areia em sua volta, levantando-a e guiando-a em diversas direções, usando-a principalmente para jogar em seus colegas[cite: 141]. Para controlar a areia, ela precisa fazer movimentos com os braços[cite: 143]. O uso contínuo de seus poderes causa forte vertigem e a sensação de uma corrente de areia passando por seus olhos; o uso de óculos de proteção reduz esse incômodo[cite: 142]."
+    }
+  },
+  {
+    "id": "theo",
+    "tipo": "personagem",
+    "nome_completo": "Theo",
+    "idade": 7,
+    "afiliacao": "Orfanato Aion (Turma α)",
+    "palavra_chave": "Performance",
+    "aparencia": "Theo tem cabelo raspado, pele preta e olhos cinza[cite: 144].",
+    "personalidade": "Ele possui uma personalidade calma e serena, mas se mostra corajoso e destemido quando necessário, especialmente perto dos alunos mais velhos, buscando a aprovação deles[cite: 145]. O garoto sofre de narcolepsia, tendo episódios repentinos e incontroláveis de sono durante o dia, mas tenta resistir ao máximo para ficar acordado[cite: 145].",
+    "poder": {
+      "nome": "Caixa do Vazio",
+      "descricao": "Sua peculiaridade possibilita que ele manifeste uma caixa física invisível em um lugar selecionado ao fazer o símbolo de um quadrado com a mão e apontar[cite: 146]. A caixa só permanece no local se ele mantiver o símbolo apontado, e enquanto manifesta a caixa, ele não é capaz de falar ou pronunciar sons[cite: 146]."
+    }
+  },
+  {
+    "id": "samantha_inkster",
+    "tipo": "personagem",
+    "nome_completo": "Samantha Inkster (Sam)",
+    "idade": "Cerca de 20-30 anos",
+    "afiliacao": "Orfanato Aion (Professora/Responsável)",
+    "aparencia": "Samantha é uma mulher de 1,84m de altura, pele branca, cabelo curto cor de vinho com uma franja preta no lado direito, e delineado vermelho sob seus olhos castanhos[cite: 170]. Ela veste um casacão vermelho sem mangas, regata preta de gola alta, luvas sem dedo, calças pretas e botas de cano alto vermelhas[cite: 171]. Possui inúmeras tatuagens vermelhas pelo corpo, representando figuras como ursos, tigres e dragões[cite: 172].",
+    "personalidade_e_papel": "Ela é muito amigável, receptiva e carismática com as crianças[cite: 173]. Mora no orfanato desde sua criação e tem um carinho imenso por Cronwell e os outros responsáveis[cite: 175]. Embora seja extrovertida, adota uma postura mais responsável na presença de Augustus, por quem tem grande respeito[cite: 174]. Sam dá aulas de Ciências, Português, Artes, Música e teatro, participa ativamente dos treinamentos físicos e é uma das responsáveis que mais passa tempo com Sophia[cite: 176]. O quadro da família do orfanato foi feito por ela[cite: 177].",
+    "poder": {
+      "nome": "Pintura Sombria",
+      "descricao": "Sua peculiaridade permite que ela invoque e manifeste as coisas tatuadas em sua pele[cite: 178]. Suas criações são feitas de um material parecido com tinta, porém mais resistente, e ela aparenta ter controle sobre suas ações[cite: 178]. Ela participa ativamente dos treinamentos, manifestando suas criaturas como inimigos e alvos para as crianças[cite: 179]. Sua cicatriz de Saturno está marcada em cima de sua mão direita[cite: 180]."
+    }
+  },
+  {
+    "id": "sebastian_camacho",
+    "tipo": "personagem",
+    "nome_completo": "Sebastian Camacho",
+    "idade": "Cerca de 25 anos",
+    "afiliacao": "Orfanato Aion (Professor/Responsável)",
+    "aparencia": "Sebastian tem cabelo loiro curto, pele branca, uma cicatriz na sobrancelha esquerda e piercings na sobrancelha direita e nas orelhas[cite: 181]. Ele veste um colete roxo com vermelho vinho sobre uma camisa preta, calça de moletom preta e coturno preto[cite: 182].",
+    "personalidade_e_papel": "Ele é uma pessoa gentil e descontraída, sempre incentivando e elogiando os alunos[cite: 183]. Procura conversar com as crianças, se enturmando e buscando referências mais novas para ter assuntos em comum[cite: 184]. Está no orfanato desde sua criação e dá aulas de matemática e inglês[cite: 185]. Ele também é responsável pelo controle e segurança do orfanato[cite: 186].",
+    "poder": {
+      "nome": "Cibernesia",
+      "descricao": "Sua peculiaridade permite que ele assuma o controle e se manifeste em dispositivos eletrônicos ao seu redor[cite: 187]. Por conta disso, ele passa um tempo considerável na sala de câmeras, já que precisa ficar imóvel para usar sua habilidade[cite: 187]. Ele relata que consegue se comunicar e conversar com os dispositivos eletrônicos[cite: 188]."
+    }
+  },
+  {
+    "id": "sophia",
+    "tipo": "personagem",
+    "nome_completo": "Sophia",
+    "idade": "1 ano e 4 meses",
+    "afiliacao": "Orfanato Aion",
+    "aparencia": "Sophia tem pele branca, olhos castanhos e pouquíssimos cabelos castanhos[cite: 189].",
+    "historia": "É a órfã mais recente, chegando ao orfanato alguns dias após seu nascimento[cite: 190]. Augustus chegou com ela em uma noite chuvosa, parecendo confuso e inquieto, uma postura muito diferente de sua habitual[cite: 191]. Sophia passa a maior parte do tempo sob os cuidados de Bardon[cite: 192].",
+    "poder": {
+      "nome": "Desconhecido",
+      "descricao": "Nada se sabe sobre sua peculiaridade, mas é possível observar sua cicatriz de saturno na nuca[cite: 193]."
+    }
+  },
+  {
+    "id": "tita",
+    "tipo": "personagem",
+    "codinome": "Titã",
+    "nome_real": "Vital Pavan",
+    "afiliacao": "Defensores de Saturno (Fundador e Líder, anteriormente).",
+    "status": "Morto[cite: 520].",
+    "regiao_operacao": "Brasil.",
+    "reputacao_publica": "A morte de Titã deixou um vazio na luta pelos direitos dos despertados, mas também gerou sérias dúvidas sobre suas reais intenções[cite: 520]. Ele passou de herói admirado a mártir suspeito[cite: 534]. A mídia divulgou suas supostas intenções extremistas, dividindo a opinião pública[cite: 535, 536]. Apoiadores ainda o veem como um herói que lutava pela liberdade e foi morto injustamente[cite: 537, 538]. Críticos acreditam que ele era um radical responsável por incitar conflitos e que sua morte foi necessária[cite: 539, 540].",
+    "visao_geral": "Titã foi o fundador e líder original dos Defensores de Saturno, amplamente reconhecido como o pilar moral do grupo antes dos eventos de 31 de outubro de 2019[cite: 521, 522]. Após a operação que resultou em sua morte, surgiram dúvidas sobre suas intenções[cite: 524]. Em suas últimas horas, foi acusado de liderar um movimento radical de despertados para incitar uma revolução contra a sociedade humana[cite: 525]. Titã morreu em combate durante a megaoperação policial, e seus últimos momentos continuam a ser debatidos[cite: 527, 528].",
+    "habilidades": {
+      "poder_principal": "Ele possuía o poder de transformar seu corpo em bronze, o que lhe conferia uma resistência excepcional, além de força sobre-humana, tornando-o quase indestrutível[cite: 202, 529, 530].",
+      "habilidades_adicionais": [
+        "Resistência extrema: Capaz de resistir a impactos de grande escala[cite: 531].",
+        "Força colossal: Sua força física era imensurável, capaz de destruir estruturas inteiras[cite: 532].",
+        "Imunidade à dor: Sua transformação em bronze também lhe permitia ignorar a dor[cite: 533]."
+      ]
+    }
+  },
+  {
+    "id": "bestiario",
+    "tipo": "personagem",
+    "codinome": "Bestiário",
+    "nome_real": "Desconhecido.",
+    "afiliacao": "Defensores de Saturno (anteriormente).",
+    "status": "Desaparecida[cite: 491].",
+    "regiao_operacao": "Brasil.",
+    "reputacao_publica": "A figura de Bestiário continua a ser um mistério, e o público não sabe o que pensar após seu desaparecimento[cite: 490, 501]. Críticos a veem como uma desertora, enquanto apoiadores acreditam que ela fugiu para proteger seus amigos[cite: 503, 505].",
+    "visao_geral": "Sempre foi uma das figuras mais enigmáticas dos Defensores[cite: 492]. Sua presença era discreta, mas sua eficácia era indiscutível[cite: 494]. Após os eventos de 31 de outubro de 2019, ela desapareceu[cite: 495]. Rumores de que fugiu para evitar ser capturada circulam, mas não há evidências concretas de seu paradeiro[cite: 496].",
+    "habilidades": [
+      "Mimetismo animal: Capacidade de mimetizar habilidades físicas e características de animais, como força, agilidade, sentidos aguçados e habilidades defensivas[cite: 206, 493, 498].",
+      "Adaptabilidade: Sua habilidade de mudar de forma a tornava extremamente difícil de prever e enfrentar[cite: 499].",
+      "Instinto aguçado: Possuía uma percepção fora do comum sobre seus inimigos, dando-lhe uma vantagem estratégica[cite: 500]."
+    ]
+  },
+  {
+    "id": "madame_impeto",
+    "tipo": "personagem",
+    "codinome": "Madame Ímpeto",
+    "nome_real": "Desconhecido.",
+    "afiliacao": "Defensores de Saturno (anteriormente).",
+    "status": "Capturada[cite: 474].",
+    "regiao_operacao": "Brasil.",
+    "reputacao_publica": "Considerada uma das mais perigosas integrantes dos Defensores[cite: 478]. Seu julgamento é aguardado, mas enfrenta atrasos devido a questões legais sobre o uso de poderes em processos criminais[cite: 479].",
+    "visao_geral": "Foi a principal combatente de linha de frente dos Defensores de Saturno[cite: 473]. Conhecida por sua habilidade de manipular um ioiô reforçado como arma principal[cite: 475]. Foi capturada durante a megaoperação de 2019 e encontra-se atualmente sob custódia em local não revelado[cite: 474]. Antes disso, era conhecida por sua personalidade descontraída e despreocupada[cite: 210].",
+    "habilidades": [
+      "Super-força de nível elevado[cite: 476].",
+      "Combate corpo a corpo especializado, com domínio do ioiô como instrumento de ataque e contenção[cite: 476].",
+      "Resistência física ampliada[cite: 477]."
+    ]
+  },
+  {
+    "id": "elastor",
+    "tipo": "personagem",
+    "codinome": "Elastor",
+    "nome_real": "Desconhecido.",
+    "afiliacao": "Defensores de Saturno (anteriormente).",
+    "status": "Desaparecido[cite: 506].",
+    "regiao_operacao": "Brasil.",
+    "reputacao_publica": "Com a queda do grupo, sua figura ganhou um ar quase mítico[cite: 516]. Fãs e teóricos de conspiração compartilham fotos de instalações estranhas em locais públicos, alegando serem 'assinaturas' deixadas por ele[cite: 518]. Céticos o acusam de ter abandonado o povo ou de ter participado do plano que derrubou os Defensores[cite: 519].",
+    "visao_geral": "Elastor era o cérebro invisível dos Defensores; enquanto outros tomavam os holofotes, ele moldava o campo de batalha com precisão matemática[cite: 508]. Seu poder era estratégico, criando pontes, prisões e armadilhas em segundos[cite: 509]. Após a queda do grupo em 2019, ele sumiu sem deixar rastro[cite: 510]. Teorias sugerem que ele está escondido, foi capturado secretamente, ou morreu e seu corpo nunca foi encontrado[cite: 511, 512].",
+    "habilidades": [
+      "Morfocinese Inorgânica: Pode deformar, remodelar e manipular objetos inanimados com o toque ou gestos[cite: 215, 513].",
+      "Intelecto Tático: Conhecido por resolver combates em segundos com mínima violência[cite: 514].",
+      "Resistência Física Moderada: Seu corpo resiste bem a impactos, mas não é invulnerável[cite: 515]."
+    ]
+  },
+   {
+    "id": "sirius",
+    "tipo": "personagem",
+    "codinome": "Sirius",
+    "nome_real": "Desconhecido.",
+    "afiliacao": "Independente (anteriormente Defensores de Saturno).",
+    "status": "Ativo[cite: 480].",
+    "regiao_operacao": "Brasil.",
+    "reputacao_publica": "Continua dividido entre amor e desconfiança[cite: 486]. Jovens o veem como uma figura inspiradora, enquanto a velha guarda o trata como traidor[cite: 487]. Hashtags como #LuzDoBrasil e #TraidorDeSaturno circulam[cite: 489].",
+    "visao_geral": "Foi o membro mais jovem dos Defensores e o último a entrar no time antes de sua queda[cite: 480]. Sempre foi o rosto carismático do grupo, com presença em campanhas sociais e talento midiático, tornando-se um ícone nacional[cite: 481]. Após o colapso do grupo, foi ele quem revelou supostas conexões entre os Defensores e células radicais, entregando documentos que alimentaram a megaoperação de 2019[cite: 482]. Sua decisão chocou o país, com alguns o vendo como corajoso e outros como oportunista[cite: 483]. Apesar da polêmica, foi homenageado pelo governo e permanece em atuação como herói independente, sendo visto atuando sozinho em áreas negligenciadas[cite: 484, 488].",
+    "habilidades": {
+      "nome": "Controle da luz",
+      "descricao": "Sirius consegue manipular luz visível, tornando-se invisível, disparando rajadas ou moldando estruturas sólidas temporárias[cite: 220, 485]."
+    }
+  },
+  {
+    "id": "inferno",
+    "tipo": "personagem",
+    "codinome": "Inferno",
+    "afiliacao": "Independente (Vilão)",
+    "status": "Derrotado pelos Defensores de Saturno[cite: 364].",
+    "regiao_operacao": "Brasil[cite: 355].",
+    "visao_geral": "Inferno foi um dos vilões mais enigmáticos do Brasil[cite: 355]. Seu comportamento era errático; às vezes aparecia e observava, depois atacava com violência, recuava e parava, como se perdesse o interesse[cite: 357]. Suas ações não tinham um objetivo claro, parecendo às vezes apenas querer causar destruição e outras vezes testar algo[cite: 358, 359]. Era imprevisível, com um corpo de metal escuro e ameaçador[cite: 360]. Sua invasão no Brasil foi o ápice de sua estranheza, causando danos massivos sem um plano lógico[cite: 362].",
+    "habilidades": [
+      "Força física: Seu corpo metálico era incrivelmente resistente, aguentando golpes de Titã e Madame Ímpeto sem danos significativos[cite: 365, 366].",
+      "Armas integradas: Possuía lâminas retráteis e projéteis de alta potência embutidos em seu corpo[cite: 367].",
+      "Comportamento imprevisível: Embora fosse um androide, sua programação era errática, atacando e recuando sem lógica aparente[cite: 368, 369].",
+      "Capacidade de adaptação: Durante os confrontos, parecia adaptar-se e mudar suas táticas com base no que encontrava[cite: 370]."
+    ]
+  }, 
+  {
+    "id": "mosaic",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Mosaic",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Paramount, o time de super-heróis mais influente da América do Norte.",
+    "regiao_operacao": "Estados Unidos da América.",
+    "status": "Ativo.",
+    "visao_geral": "Mosaic é o principal especialista cognitivo da Paramount, atuando como uma força silenciosa por trás de operações críticas. [cite: 222] Ele não combate ameaças diretamente; ele as desvenda. [cite: 223] Como um leitor de mentes forense, ele reconstrói o passado a partir de resíduos mentais deixados em pessoas, lugares ou objetos. [cite: 223] Diferente de telepatas, ele escuta ecos psíquicos, memórias e manchas emocionais. [cite: 224] Sua presença em uma cena geralmente traz clareza, revelando elos perdidos e motivos. [cite: 225] Ele raramente fala em público, e sua máscara, uma superfície reflexiva e sem feições, simboliza seu papel de refletir os outros, nunca a si mesmo. [cite: 226]",
+    "habilidades": {
+      "classificacao": "Analisado como forense paracognitiva de alto nível. [cite: 227]",
+      "poderes_rumorados": [
+        "Reconstrução de Memória: Juntar memórias fraturadas, mesmo de mentes inconscientes ou danificadas. [cite: 228]",
+        "Escaneamento de Resíduo Psíquico: Ler 'manchas' emocionais deixadas em ambientes ou objetos. [cite: 229]"
+      ]
+    },
+    "caracteristicas_notaveis": [
+      "Nunca remove sua máscara, que dizem 'filtrar' o excesso de ruído mental. [cite: 230]",
+      "Frequentemente solicitado como consultor em crises diplomáticas ou internas para revelar o que as pessoas não admitem. [cite: 231]"
+    ],
+    "traje_e_aparencia": "Mosaic usa um traje de corpo inteiro que não deixa a pele exposta. [cite: 235] A base é um material preto fosco, texturizado para se assemelhar a vidro rachado no peito, ombros e lados da cabeça. [cite: 236] Essas fraturas mudam sutilmente com o movimento. [cite: 237] Sua máscara é lisa e sem expressão, com duas fendas finas onde deveriam estar os olhos, que brilham com uma luz azul-petróleo suave que pulsa quando ele usa suas habilidades. [cite: 238] O traje é revestido com padrões fractais flutuantes, como cacos de vitral, que espiralam de seu antebraço direito até o ombro esquerdo e brilham com cores iridescentes quando ele está ativo. [cite: 239, 240] Ele tem uma constituição extremamente magra com dedos e membros alongados, dando-lhe uma presença cerebral e ligeiramente inumana. [cite: 241]"
+  },
+  {
+    "id": "battery",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Battery",
+    "nome_real": "Desconhecido",
+    "afiliacao": "The Paramount, o time de super-heróis mais influente da América do Norte.",
+    "regiao_operacao": "Estados Unidos da América.",
+    "status": "Ativa.",
+    "visao_geral": "Battery é uma das poucas heroínas cujo poder é definido pela contenção. [cite: 247] De cabeça fria, brutalmente eficiente e notoriamente insensível, ela é uma velocista que espera. [cite: 248] Ela não é celebrada por seu carisma, mas por sua precisão aterrorizante no campo de batalha. [cite: 249] Seu estilo de combate é descrito como mecânico: entrar no campo, ficar parada, avaliar, iniciar. [cite: 250] Quando ela se move, já acabou. [cite: 251] Ela ascendeu nos circuitos militares, onde era conhecida por desobedecer ordens em favor de 'cronogramas melhores'. [cite: 252]",
+    "habilidades": {
+      "nome_nao_oficial": "Campo de Inversão Cinética",
+      "descricao": "Sua habilidade despertada permite que ela se 'carregue' permanecendo perfeitamente imóvel, armazenando potencial cinético através da contenção. [cite: 254] Quanto mais tempo ela fica imóvel, mais violentamente ela pode descarregar essa energia em força, velocidade e eletromagnetismo de resposta rápida. [cite: 255]",
+      "efeitos_suspeitos": [
+        "Telecinesia eletromagnética de curto alcance.",
+        "Execução de combate hiper-reflexiva.",
+        "Aumento temporário de massa muscular, resposta neural e percepção."
+      ]
+    },
+    "caracteristicas_notaveis": [
+      "Já ficou em silêncio durante operações inteiras, ganhando o apelido de 'O Último Segundo'. [cite: 256]",
+      "Mantém registros digitais detalhados de seus 'padrões de carregamento'. [cite: 257]",
+      "Recusa-se a ser filmada durante cargas ativas, citando 'exposição tática'. [cite: 258]",
+      "Não carrega armas tradicionais. [cite: 258]"
+    ]
+  },
+  {
+    "id": "downdraft",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Downdraft",
+    "nome_real": "Desconhecido",
+    "afiliacao": "The Paramount, o time de super-heróis mais influente da América do Norte.",
+    "regiao_operacao": "Operações na fronteira México-EUA.",
+    "status": "Ativo.",
+    "visao_geral": "Downdraft é um especialista de meio-campo que manipula a microdinâmica atmosférica. [cite: 260] Ele é um despertado do tipo 'pensador' que canaliza processos meteorológicos abstratos em ferramentas de combate precisas. [cite: 261] Ele não convoca raios ou furacões, mas dobra mudanças termodinâmicas localizadas para confundir inimigos, desviar projéteis e deslocar combatentes com turbulência cirúrgica. [cite: 262] No campo, ele é um fantasma, desorientador e difícil de ser pego. [cite: 263] Seu poder é menos sobre força e mais sobre controle. [cite: 264]",
+    "habilidades": {
+      "descricao": "Downdraft tem a habilidade de manipular micro-explosões de pressão de ar, temperatura e fluxo de ar dentro de um raio limitado. [cite: 266]",
+      "tecnicas": [
+        "Colapso de Ar Localizado: Correntes de ar descendentes súbitas que desestabilizam o equilíbrio ou esgotam o oxigênio em um espaço controlado. [cite: 267]",
+        "Bloqueio de Projéteis: Distorce a resistência do ar para desviar balas ou arrastar objetos para fora do curso. [cite: 268]"
+      ]
+    },
+    "caracteristicas_notaveis": [
+      "Mantém um drone de simulação climática amarrado a ele o tempo todo, apelidado de Nimbus. [cite: 269]",
+      "Ex-engenheiro atmosférico e contribuidor não confirmado para vários projetos de drones militares. [cite: 270]",
+      "Opera melhor em ambientes urbanos e fechados. [cite: 271]"
+    ]
+  },
+  {
+    "id": "trena",
+    "tipo": "personagem",
+    "nome_real": "Jorge Nunes",
+    "codinome": "Trena",
+    "afiliacao": "Nenhuma conhecida.",
+    "regiao_operacao": "Brasil (Recôncavo Baiano).",
+    "status": "Ativo.",
+    "visao_geral": "Conhecido como Trena, é uma figura comum entre os moradores de bairros históricos e portuários. [cite: 275] De acordo com relatos, é capaz de medir qualquer distância ou volume apenas com o olhar, de forma instantânea e com precisão cirúrgica. [cite: 276] Trabalha tanto para obras clandestinas quanto para assaltantes planejando rotas de fuga. [cite: 277] Dizem que ele já foi contratado para ajudar gangues a desaparecer por becos estreitos. [cite: 278]",
+    "habilidades": [
+      "Cálculo dimensional absoluto.",
+      "Visão tátil a distância."
+    ],
+    "caracteristicas_notaveis": [
+      "Carrega fitas métricas como amuletos. [cite: 279]",
+      "Usa óculos sem grau. [cite: 280]",
+      "Nunca pisa em um lugar sem estudar o entorno primeiro. [cite: 280]"
+    ]
+  },
+  {
+    "id": "lady_caos_da_fronteira",
+    "tipo": "personagem",
+    "codinome": "Lady, ou Caos da Fronteira",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Independente.",
+    "regiao_operacao": "Brasil.",
+    "status": "Desaparecida (desde o incidente com os Defensores de Saturno).",
+    "visao_geral": "Lady é uma heroína que, apesar de operar de forma independente, sempre esteve ligada a grandes figuras, especialmente os Defensores de Saturno. [cite: 294] Embora não tenha participado diretamente do famoso incidente do grupo, suas conexões a colocaram no centro das atenções. [cite: 295] Desde então, ela desapareceu. [cite: 296] De personalidade explosiva e com raízes rurais evidentes, seu sotaque forte e jeito simples contrastam com a gravidade das situações que enfrenta. [cite: 297, 298] Ela é direta, impulsiva e sempre se colocou como defensora dos direitos dos despertados. [cite: 299]",
+    "habilidades_alegadas": [
+      "Transformação corporal: Ela pode alterar partes de seu corpo, transformando-as em armas como lâminas, garras e escudos de carne e ossos. [cite: 300]",
+      "Regeneração acelerada: Possui uma capacidade impressionante de curar ferimentos rapidamente. [cite: 301]",
+      "Força e agilidade aprimoradas: Sua musculatura e estrutura óssea são significativamente mais fortes e rápidas que as de um humano comum. [cite: 302]"
+    ],
+    "caracteristicas_notaveis": [
+      "Não tem papas na língua, fala o que pensa e age de acordo com sua própria moral. [cite: 303]",
+      "Seu jeito simples e sotaque forte sempre a destacaram. [cite: 304, 305]",
+      "Sua conexão com os Defensores de Saturno gerou rumores, mas não se sabe ao certo o que aconteceu após o incidente que levou ao seu desaparecimento. [cite: 306, 307]"
+    ]
+  },
+  {
+    "id": "o_moleque_de_ferro",
+    "tipo": "personagem",
+    "codinome": "O Moleque de Ferro",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Independente",
+    "regiao_operacao": "Brasil",
+    "status": "Ativo",
+    "reputacao_publica": "Símbolo crescente de determinação. [cite: 308] Chamado de 'O Moleque de Ferro' pelos jornais de bairro. [cite: 309] Tem seguidores fiéis nas redes sociais com a hashtag #LevantaMoleque. [cite: 315]",
+    "visao_geral": "Sem capa, patrocinador ou time, este jovem de 16 anos viralizou em vídeos caseiros por intervir repetidamente em situações perigosas, mesmo lesionado e sozinho. [cite: 309, 310, 311] Ele não tem uniforme fixo, apenas um moletom rasgado com um símbolo feito à mão. [cite: 312] Já impediu sequestros, salvou civis de incêndios e enfrentou outros despertos, sempre se levantando novamente. [cite: 313]",
+    "habilidades_supostas": [
+      "Sem registro oficial de despertar, mas relatos incluem:",
+      "Resistência física incomum (especialmente à dor).",
+      "Vontade sobre-humana: recusa-se a desmaiar ou desistir, mesmo gravemente ferido.",
+      "Possível ativação por adrenalina ou fé (ainda não confirmado)."
+    ]
+  },
+  {
+    "id": "shram",
+    "tipo": "personagem",
+    "lingua": "russo",
+    "codinome": "Шрам (Shram)",
+    "nome_real": "Иван Ростов (Ivan Rostov)",
+    "afiliacao": "Пробуждённая Армия России (ПАР) - Exército Despertado da Rússia.",
+    "regiao_operacao": "Sibéria e Cáucaso.",
+    "status": "Ativo.",
+    "reputacao_publica": "Símbolo de força. Herói para alguns, ameaça para outros. Herói da nova Rússia segundo a mídia estatal; perigoso, segundo as agências de inteligência ocidentais. Ninguém quer enfrentá-lo duas vezes.",
+    "visao_geral": "Shram é uma arma viva, uma cicatriz no corpo do país que sobreviveu às zonas mais perigosas do mundo. Sua pele é queimada e cortada, seu olhar é gélido. Ele não fala sobre o passado; ele segue em frente.",
+    "habilidades": {
+      "nome": "Атомный Шрам (Cicatriz Atômica)",
+      "descricao": "Shram absorve radiação e a transforma em poder físico e emissões de calor. Quanto mais hostil o ambiente, mais forte ele se torna. Seu corpo se torna uma fonte de destruição."
+    },
+    "caracteristicas_notaveis": [
+      "Imunidade a venenos e radiação.",
+      "Pulso eletromagnético como medida extrema.",
+      "Raramente fala, mas quando o faz, é de forma baixa e clara."
+    ]
+  },
+  {
+    "id": "asphalt",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Asphalt",
+    "nome_real": "Terrance 'Terry' Briggs",
+    "afiliacao": "Independente / Vigilante.",
+    "regiao_operacao": "Estados Unidos (Chicago, Detroit).",
+    "status": "Ativo, procurado em vários estados.",
+    "reputacao_publica": "Ameaça local para gangues, lenda urbana para a polícia. Chamado de 'o demônio do bueiro' pelos policiais.",
+    "visao_geral": "Conhecido nas ruas como 'Asphalt', Terry era um entregador de bicicleta que foi pego em uma guerra de gangues sobrenatural.",
+    "habilidades": [
+      "Terry pode se fundir e manipular asfalto e piche, tornando-se parte da estrada e viajando através dela em alta velocidade.",
+      "Transforma seus membros em armas contundentes revestidas de piche quente e quebradiço.",
+      "Deixa rastros de estrada derretida após movimentos de alta energia."
+    ],
+    "caracteristicas_notaveis": [
+      "Capacete permanentemente derretido em parte de sua cabeça.",
+      "Cheira levemente a borracha queimada.",
+      "Conhecido por arrastar criminosos para o subsolo no meio de perseguições.",
+      "Nunca foi capturado claramente em câmera."
+    ]
+  },
+  {
+    "id": "armory",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Armory",
+    "nome_real": "Desconhecido (alguns materiais se referem a ela como Kyra)",
+    "afiliacao": "The Paramount, o time de super-heróis mais influente da América do Norte.",
+    "regiao_operacao": "Estados Unidos (implantações táticas urbanas, autorização global para emergências).",
+    "status": "Ativa.",
+    "reputacao_publica": "Reverenciada silenciosamente. Frequentemente chamada de 'A Mente por Trás do Gatilho' ou 'O Arsenal Senciente'.",
+    "visao_geral": "Armory é precisa, controlada e inabalavelmente composta, uma pedra angular estratégica da Paramount. Sua disciplina não nasce do ego, mas da responsabilidade consciente. Ela nunca carrega armas, apenas as convoca conforme necessário, e cada arma parece uma escolha medida com antecedência. Ela evita a mídia e atua como uma figura mentora dentro da equipe, não por carisma, mas por sua clareza.",
+    "habilidades": {
+      "nome": "Ressonância Adaptativa",
+      "descricao": "Seu poder manifesta-se como um borrão semiautônomo de energia verde e preta que reage à tensão, intenção e peso moral, formando armas adequadas não apenas à situação, mas à sua contenção dentro dela.",
+      "tracos_confirmados": [
+        "Conjuração de armas de energia, incluindo armas de fogo, lâminas e armas não letais.",
+        "Recuperação instantânea de qualquer construto, mesmo das mãos do inimigo.",
+        "Recarga/reforma automática em caso de falha ou emperramento.",
+        "Guia sutil de mira. Sua precisão aumenta em dilemas morais de alto estresse."
+      ]
+    },
+    "personalidade": "Centrada e profundamente introspectiva, ela acredita que seu poder exterioriza o que ela reprime (raiva, medo, esperança). É uma estrategista filosófica que já disse: 'Toda arma que eu convoco é uma memória que me recusei a sentir'. Atua como uma força de equilíbrio na equipe."
+  },
+  {
+    "id": "faultline",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Faultline",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Crux Unit — Força-Tarefa de Despertados da Costa Oeste.",
+    "regiao_operacao": "Estados Unidos (São Francisco, Seattle).",
+    "status": "Ativa.",
+    "reputacao_publica": "Alta aprovação entre jovens adultos; controversa na aplicação da lei. Apelidada pela mídia de 'O Terremoto Controlado'.",
+    "visao_geral": "Apelidada de 'Faultline', ela emergiu dos escombros de um terremoto em sua juventude com a habilidade de manipular a pressão das falhas tectônicas. Uma figura ousada e confrontadora, ela lidera invasões táticas em missões de alto risco e operações anticartel.",
+    "habilidades": [
+      "Pode gerar deslocamentos tectônicos localizados repentinos 'liberando' pressão sob seus pés ou através de paredes/pisos que ela toca.",
+      "Colapsa edifícios ou andares com um pisão.",
+      "Pode se lançar invertendo rajadas sísmicas."
+    ],
+    "caracteristicas_notaveis": [
+      "Usa luvas reforçadas com sensores de pressão.",
+      "Carrega um display de sismógrafo nas costas como uma mochila de energia.",
+      "Já deslocou os ombros oito vezes em combate."
+    ]
+  },
+  {
+    "id": "twistweaver",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Twistweaver",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Coalizão Pan-Africana.",
+    "regiao_operacao": "Nigéria.",
+    "status": "Ativa.",
+    "reputacao_publica": "Polarizadora. Adorada em algumas cidades, condenada em outras como demagoga. Radical para alguns, divina para outros.",
+    "visao_geral": "Twistweaver é uma das poucas despertadas que fundiu seus poderes com a política. Ex-engenheira civil e estrategista urbana, ela se tornou líder da Coalizão quando salvou mais de 300 pessoas durante o colapso de um prédio, não levantando escombros, mas remodelando toda a fundação sob eles. Desde então, ela defende uma nova filosofia urbana, onde as próprias cidades respondem ao trauma de seu povo.",
+    "habilidades": {
+      "nome": "Simpatia Estrutural",
+      "descricao": "Ela pode manipular material arquitetônico não vivo (concreto, aço, vidro) apenas se ele abrigou vida humana. Pode fazer ruas se flexionarem, prédios girarem, escadas crescerem ou encolherem, mas apenas em habitats. Quanto mais antiga ou 'vivida' a estrutura, mais forte seu controle. Não pode manipular matéria-prima ou ruínas sem vida."
+    },
+    "caracteristicas_notaveis": [
+      "Veste tecidos locais com bordados de metal.",
+      "Frequentemente descalça ao ativar seu poder.",
+      "Refere-se a edifícios por nomes, não por endereços, acreditando que eles têm 'almas'."
+    ]
+  },
+  {
+    "id": "miriade",
+    "tipo": "personagem",
+    "codinome": "Miríade",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Nenhuma formal.",
+    "regiao_operacao": "Brasil (predominantemente Norte e Centro-Oeste).",
+    "status": "Ativa.",
+    "reputacao_publica": "Enigmática. Aclamada por movimentos indígenas e de resistência local, mas considerada um risco pelo governo. Protetora sagrada para grupos indígenas e quilombolas.",
+    "visao_geral": "Miríade é uma figura envolta em mistério, surgindo em regiões remotas da floresta amazônica. Nunca foi vista nitidamente, sempre envolta por brumas ou sombras distorcidas. Alguns dizem que ela é uma encarnação coletiva dos mortos injustiçados; outros, que é a própria terra reagindo. Onde Miríade aparece, abusadores desaparecem. Ela nunca age em cidades grandes; seu domínio é o interior.",
+    "habilidades": {
+      "nome": "Desconhecido",
+      "descricao": "Nenhum registro confiável foi obtido. Aqueles que tentaram capturá-la relatam vozes múltiplas, apagões de memória e alterações na realidade sensorial."
+    },
+    "caracteristicas_notaveis": [
+      "Fala com múltiplas vozes sobrepostas.",
+      "Causa desconforto e pânico em quem tenta se aproximar com hostilidade.",
+      "Seus olhos (quando visíveis) nunca parecem os mesmos."
+    ]
+  },
+  {
+    "id": "macelarul_din_umbre",
+    "tipo": "personagem",
+    "lingua": "romeno",
+    "codinome": "Măcelarul din Umbre (O Açougueiro das Sombras)",
+    "nome_real": "Dr. Claudiu Voinești",
+    "afiliacao": "Nenhuma oficial — considerado criminoso internacional.",
+    "regiao_operacao": "Romênia.",
+    "status": "Não capturado.",
+    "reputacao_publica": "Lendário. Um nome dito apenas em sussurros. A polícia romena o considera um mito urbano; a Europol tem um dossiê secreto. As crianças das aldeias o apelidaram de 'Domnul Întunecat' (O Senhor Sombrio).",
+    "visao_geral": "Voinești é um ex-cirurgião militar e professor universitário, desaparecido após uma série de crimes ritualísticos em Bucareste. Os sobreviventes dizem que a sombra dele tem dentes.",
+    "habilidades": {
+      "nome": "Umbra Senzorială (Sombra Sensorial)",
+      "descricao": "Sua sombra é uma extensão tátil e física de seu corpo, controlada voluntariamente. Ele pode sentir, agarrar e apertar através da sombra, como uma extensão muscular. A sombra pode modificar sua forma de acordo com suas emoções. Com concentração suficiente, ele pode separá-la temporariamente de seu corpo."
+    },
+    "caracteristicas_notaveis": [
+      "Sempre usa chapéu e um casaco de couro velho.",
+      "Sua sombra é visivelmente mais escura que as normais e se move um pouco fora de sincronia.",
+      "Fala raramente, mas com um sotaque transilvaniano muito pronunciado."
+    ]
+  },
+  {
+    "id": "the_paramount",
+    "tipo": "organizacao",
+    "titulo": "The Paramount",
+    "visao_geral": "The Paramount é a principal equipe de despertados dos Estados Unidos, operando sob a égide da ARISA. Eles representam um ideal de intervenção governamental de despertados: rigidamente monitorada e endossada publicamente. São o símbolo da legitimidade, contenção e da esperança de que o poder dos despertados pode servir a uma sociedade estruturada. Altamente visíveis e bem financiados, estão sujeitos a uma intensa supervisão política e pública.",
+    "missao_e_mandato": "Existem para neutralizar ameaças despertadas com força despertada, mantendo a confiança pública e a disciplina operacional. Suas operações incluem intervenção em eventos de despertados descontrolados, negociação de alto risco e aparições estratégicas de relações públicas. Não operam anonimamente e cada membro aceita o peso da jurisdição federal, incluindo conselhos de revisão interna e transparência na mídia.",
+    "recrutamento_e_requisitos": "A adesão não se baseia apenas no nível de poder, mas na confiabilidade, alinhamento ideológico e estabilidade pública. A maioria dos recrutas vem dos quadros de talentos internos da ARISA, incluindo respondentes regionais, ex-despertados reabilitados e graduados de programas juvenis. Cada membro deve registrar sua habilidade, submeter-se a exames trimestrais e manter uma persona pública estável.",
+    "estilo_operacional": "São implantados taticamente, com ênfase na prevenção de baixas civis e na minimização do espetáculo. Raramente são a primeira resposta, chegando quando a escalada é provável, como em situações de reféns com despertados de alto nível. Operam frequentemente em pares ou sozinhos com o objetivo de projetar calma e controle. Grande parte do tempo é gasta fora de campo, em treinamentos de combate, mídia e ética."
+  },
+  {
+    "id": "axis_mundi",
+    "tipo": "organizacao",
+    "titulo": "Axis Mundi",
+    "visao_geral": "Axis Mundi é uma aliança geopolítica, um pacto entre potências globais para manter o equilíbrio. A coalizão é composta pelos despertados mais poderosos e simbolicamente ressonantes de cinco nações soberanas: Estados Unidos, Japão, Reino Unido, Nigéria e Nova Zelândia. Cada membro da pentarquia é soberano e simbólico, destinado a deter a calamidade tanto quanto a neutralizá-la. Eles não são subordinados a um comando superior, mas pilares de um novo mundo frágil, ativados quando os riscos existenciais superam suas bandeiras nacionais.",
+    "membros": [
+      "Aegis (Estados Unidos)",
+      "Kagutsuchi-A (Japão)",
+      "Oathwright (Reino Unido)",
+      "Radianta (Nova Zelândia - opera em Lagos, Nigéria)",
+      "Azoth (Nigéria)"
+    ]
+  },
+  {
+    "id": "the_vanguards",
+    "tipo": "organizacao",
+    "titulo": "The Vanguards",
+    "visao_geral": "The Vanguards é a subdivisão oficial para menores de dezoito anos que opera sob a supervisão da ARISA, servindo como uma unidade de treinamento tático e uma equipe de implantação ativa. Publicamente, é apresentada como a 'Iniciativa Juvenil da ARISA', formada em resposta à preocupação pública sobre jovens despertados operando sem supervisão. Seus membros são liberados para missões reais, com apostas reais e escrutínio nacional.",
+    "proposito_e_posicao": "Sua missão está na encruzilhada de contenção, alcance comunitário e desenvolvimento. Na prática, são um campo de provas onde futuros candidatos à Paramount são forjados. Os membros são recrutados de programas juvenis da ARISA ou identificados em eventos monitorados, incluindo ex-vigilantes e despertados resgatados. Eles atuam no engajamento inicial com eventos despertados, apoio em evacuações civis e visibilidade comunitária estratégica."
+  },
+  {
+    "id": "barricade",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Barricade",
+    "nome_real": "Palesa Ntombi",
+    "afiliacao": "African Security Union (ASU) Task Force.",
+    "regiao_operacao": "África do Sul (principalmente Joanesburgo e Durban).",
+    "status": "Ativa.",
+    "reputacao_publica": "Respeitada em zonas urbanas, controversa em áreas rurais. Cidadãos urbanos apreciam sua disciplina, mas manifestantes antigovernamentais a veem como uma ferramenta de supressão. Apelidada de 'a muralha ambulante'.",
+    "visao_geral": "Palesa foi uma das primeiras despertadas a ser totalmente recrutada para uma força-tarefa multilateral africana. Ela trabalha defendendo locais sensíveis, oficiais e centros populacionais. Seu estilo é imponente, limpo e tático.",
+    "habilidades": {
+      "nome": "Pele interligada (Interlocking Skin)",
+      "descricao": "Ela pode travar partes de sua pele magneticamente para criar seções blindadas ou barreiras. Pode conectar os braços para formar um escudo ou as pernas para criar barricadas. Pode se 'travar' em superfícies para se tornar imóvel e formar bordas afiadas ao apertar as placas de pele.",
+      "caracteristicas_notaveis": "Sua armadura não é um traje externo, é ela mesma. Usa um uniforme preto justo com apenas pescoço e mãos expostos. Raramente usa força letal, sendo treinada em controle de multidões."
+    }
+  },
+  {
+    "id": "ferrao",
+    "tipo": "personagem",
+    "codinome": "Ferrão",
+    "nome_real": "Danilo A. Sampaio",
+    "afiliacao": "Nenhuma oficial (ex-integrante da Iniciativa Alfa-Leste).",
+    "regiao_operacao": "Brasil.",
+    "status": "Procurado em três estados, aclamado em outros dois.",
+    "reputacao_publica": "Adorado em comunidades onde a polícia e os heróis não chegam. Grafites com seu símbolo (um espinho negro atravessando um punho branco) surgem em muros. Em meios institucionais, é tratado como um vigilante violento e imprevisível. Após executar um torturador de despertados, passou a ser chamado de 'terrorista simbólico' nos noticiários.",
+    "visao_geral": "Antes um aspirante promissor da Iniciativa Alfa-Leste, um projeto militarizado para treinar despertados. Ferrão foi dispensado após recusar ordens de execução durante a repressão ao Motim de Jacarandá. Em vez disso, libertou dezenas de presos e expôs gravações de agentes coagindo moradores a entregar seus filhos com poderes. Desde então, tornou-se uma figura simbólica nas periferias, combatendo grupos de extermínio, milícias e criminosos despertos. Ele não se alinha com o sistema, mas não aceita a anarquia.",
+    "habilidades": [
+      "Pode projetar estiletes orgânicos através da pele, geralmente nos punhos, braços e costas.",
+      "Consegue retrair as armas e utilizá-las como projéteis.",
+      "Seu corpo adapta a musculatura em tempo real para combate, sem perder mobilidade."
+    ]
+  },
+  {
+    "id": "azoth",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Azoth (também chamado de 'The High Priest', 'Monad')",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Axis Mundi (representa a Nigéria).",
+    "regiao_operacao": "Nigéria / Global.",
+    "status": "Ativo.",
+    "reputacao_publica": "Consistentemente positiva, mas obscura na grande mídia. Em círculos especializados (agências táticas, equipes de trauma), é o nome que surge quando precisam de uma solução, não de um símbolo. É visto como um técnico de crises. Muitos o veem como um modelo de heroísmo prático.",
+    "visao_geral": "A reputação de Azoth cresceu a partir de resultados: catástrofes que não escalaram e cenários impossíveis que terminaram antes de começar. Ele aparece quando as coisas estão no seu pior e sai antes de ser agradecido. Seu envolvimento raramente é anunciado. Aqueles que falaram com ele o descrevem como inesperadamente gentil, presente e um bom ouvinte. Insistem que, apesar dos mitos, ele é profundamente humano.",
+    "habilidades": {
+      "descricao": "Seu poder é um dos fenômenos mais especulados. Não há consistências, com capacidades que variam drasticamente. Ele nunca usa a mesma habilidade da mesma maneira duas vezes. Uma teoria comum é que ele avalia constantemente matrizes de ameaça e seu corpo ou mente toma decisões antes do pensamento consciente. Ele não imita poderes, ele reconstrói um poder a partir de seu núcleo e o executa como se tivesse treinado por décadas.",
+      "demonstracoes_conhecidas": [
+        "Manipulação de poços de gravidade localizados.",
+        "Geração de campos eletromagnéticos adaptativos.",
+        "Reconfiguração biológica.",
+        "Contra-ataque a força telecinética com pura força física."
+      ]
+    }
+  },
+  {
+    "id": "noctambule",
+    "tipo": "personagem",
+    "lingua": "frances",
+    "codinome": "Noctambule",
+    "afiliacao": "Cercle Minuit (suposta).",
+    "regiao_operacao": "França (Paris, Marselha).",
+    "status": "Desconhecido.",
+    "reputacao_publica": "Glamourizado pela mídia, temido nos meios diplomáticos.",
+    "visao_geral": "Noctambule é uma figura obscura da alta sociedade parisiense, presente em galas, mas ausente dos registros civis. [cite: 4] Alguns dizem que ele é imortal, enquanto outros acreditam que várias pessoas se sucedem sob este nome. [cite: 5] O que é certo é que, por onde ele passa, pessoas importantes desaparecem. [cite: 6]",
+    "habilidades_supostas": {
+      "nome": "Projeção de sono",
+      "descricao": "Se ele te toca, você adormece. [cite: 7] Ele pode 'roubar' seu último sonho. [cite: 8] Esse sonho pode ser usado mais tarde como isca, diversão ou ilusão. [cite: 9] Ele adormece as pessoas sem dor e em silêncio, pode 'baixar' as emoções de um sonho roubado, e alguns dizem ter sonhado com ele antes mesmo de o verem. [cite: 10]"
+    },
+    "caracteristicas_notaveis": [
+      "Sempre em preto, com gravata branca.",
+      "Usa perfumes raros e uma máscara de veludo.",
+      "Às vezes fuma, mas a fumaça vai para o chão."
+    ]
+  },
+  {
+    "id": "remanence",
+    "tipo": "personagem",
+    "lingua": "frances",
+    "codinome": "Rémanence",
+    "nome_real": "Isabeau Montessart",
+    "afiliacao": "Union Européenne des Sentinelles.",
+    "regiao_operacao": "França.",
+    "status": "Ativa.",
+    "reputacao_publica": "Complexa. Saudada pelas instituições, mas criticada pelos cidadãos por seus métodos 'frios'. [cite: 12] Percebida como um instrumento do Estado; temida por alguns, respeitada por outros. Para as famílias das vítimas, é uma aliada; para rebeldes e criminosos, é um espectro que controla a mente. [cite: 23]",
+    "visao_geral": "Rémanence é a principal responsável por interrogatórios de alta segurança envolvendo despertados na Europa. [cite: 13] Conhecida por seu comportamento metódico e dicção quase hipnótica, ela age como a última linha antes das operações militares. [cite: 14] É pouco vista em campo, mas sua influência é imensa nas salas de interrogatório. [cite: 15]",
+    "habilidades": {
+      "nome": "Mnémoire",
+      "descricao": "Ela pode absorver temporariamente as memórias de uma pessoa, invertendo os circuitos de memória através do contato prolongado com a pele nua. [cite: 16] Ela pode, assim, 'viver' uma memória como se fosse sua. [cite: 17] Também pode apagar ou distorcer a memória original, embora alegue raramente fazê-lo sem um mandado. [cite: 18] Seus olhos mudam de cor de acordo com a emoção dominante no souvenir absorvido. [cite: 19]"
+    },
+    "caracteristicas_notaveis": [
+      "Veste-se de preto clínico e sempre usa luvas de seda. [cite: 20]",
+      "Fala lentamente, como se pesasse cada palavra. [cite: 21]",
+      "Mantém um diário manuscrito onde descreve as memórias que considera 'belas'. [cite: 22]"
+    ]
+  },
+  {
+    "id": "strata",
+    "tipo": "personagem",
+    "lingua": "arabe",
+    "codinome": "Strata",
+    "nome_real": "فاطمة المزروعي (Fatima Al-Mazroui)",
+    "afiliacao": "Independente, mas colabora frequentemente com a UNESCO e equipes de proteção de antiguidades.",
+    "regiao_operacao": "Jordânia (especialmente em Petra e Amã).",
+    "status": "Ativa.",
+    "reputacao_publica": "Amada por historiadores e ativistas; vista com desconfiança por forças militares e desenvolvedores comerciais.",
+    "visao_geral": "Fatima é uma geóloga que se tornou uma guardiã despertada depois que suas habilidades surgiram durante uma tempestade que revelou ruínas antigas que ela estudava. [cite: 24] Desde então, ela dedicou sua vida a proteger terras sagradas da exploração. [cite: 25] Strata aparece quando terremotos ou projetos de desenvolvimento ameaçam sítios arqueológicos. [cite: 26]",
+    "habilidades": {
+      "nome": "Memória da Terra",
+      "descricao": "Ela pode 'ler' a memória geológica da Terra. [cite: 27] Ela controla pedras e sedimentos associados a traumas históricos ou arqueológicos. [cite: 28] Pode criar barreiras, espinhos de pedra e aberturas súbitas no solo quando a Terra 'se lembra' da violência. [cite: 29] Sua força aumenta quanto mais perto ela está de ruínas ou locais de patrimônio. [cite: 30]"
+    },
+    "caracteristicas_notaveis": [
+      "Veste roupas com influência beduína em cores terrosas e múltiplas camadas. [cite: 31]",
+      "Usa um colar com amostras de solo de locais sagrados. [cite: 31]",
+      "Luta em um estilo defensivo, construindo muros e protegendo espaços. [cite: 31]",
+      "Fala muito baixo e frequentemente cita poesia de civilizações antigas. [cite: 32]"
+    ]
+  },
+  {
+    "id": "loop",
+    "tipo": "personagem",
+    "lingua": "ingles",
+    "codinome": "Loop",
+    "nome_real": "Deanna Corbin",
+    "afiliacao": "The Paramount.",
+    "regiao_operacao": "Estados Unidos da América (baseada no Meio-Oeste, opera nacionalmente).",
+    "status": "Ativa.",
+    "visao_geral": "Loop é rápida, mas não no sentido tradicional; ela manipula sua própria linha do tempo de curto prazo. [cite: 45, 47] Uma das mais jovens da Paramount, ela se tornou uma peça chave em missões de alto risco. [cite: 47] Ex-atleta de atletismo, foi recrutada por Battery após uma série de resgates de civis. [cite: 48] Desde então, ganhou reputação como uma estrategista implacável e uma provocadora impiedosa. [cite: 49]",
+    "habilidades": {
+      "nome": "Echo Shift",
+      "descricao": "Seu despertar lhe concede a habilidade de criar brevemente pós-imagens atrasadas de seus próprios movimentos, duplicatas temporais exatas da posição e do momento de seu corpo, repetindo ações segundos depois que aconteceram inicialmente. [cite: 50] Exemplos incluem socos que 'acertam duas vezes' de direções diferentes e esquivas que parecem falhas na realidade. [cite: 51, 52] Os ecos não pensam, mas batem com força suficiente para derrubar alguém. [cite: 52]"
+    },
+    "caracteristicas_notaveis": [
+      "Luta com fones de ouvido; fãs teorizam que isso a ajuda com o tempo. [cite: 53]",
+      "Mantém um registro privado de todos os seus 'ecos' de campo. [cite: 54]",
+      "Conhecida por pregar peças em entrevistadores usando loops de tempo sutis durante transmissões ao vivo. [cite: 55]"
+    ],
+    "traje_e_aparencia": "Usa um macacão preto fosco com costuras douradas. [cite: 57] Sobre ele, um longo casaco preto desgastado, com um corte assimétrico e gola alta. [cite: 59, 60] O forro interno e a bainha inferior são cobertos com grafites e símbolos, e a frase 'EU JÁ ESTIVE AQUI' nas costas. [cite: 61] Usa luvas de couro sem dedos e um anel em forma de infinito. [cite: 63] Seu cabelo é um corte 'wolf cut' bagunçado, tingido de um violeta profundo. [cite: 64] Seus olhos são violetas. [cite: 65] Às vezes usa um capacete preto fosco com a frase 'TENTE NOVAMENTE' pintada em estêncil. [cite: 66, 68]"
+  },
+  {
+    "id": "vies",
+    "tipo": "personagem",
+    "nome_real": "Desconhecido",
+    "afiliacao": "Independente.",
+    "regiao_operacao": "Brasil.",
+    "status": "Ativo.",
+    "reputacao_publica": "Positiva entre os círculos de despertados mais jovens, emergindo nas esferas online. [cite: 189] Considerado uma das figuras emergentes mais 'assistíveis' hoje. [cite: 221] Analistas táticos mostram mais cautela, pois seu poder cinético poderia, no contexto errado, nivelar um quarteirão de uma cidade. [cite: 222, 223]",
+    "visao_geral": "Viés pode alternar entre formas masculina, feminina e bigênero, cada uma com um conjunto de poderes completamente diferente. [cite: 191] De língua afiada e emocionalmente rápido, Viés é o tipo de figura que causa pânico em coletivas de imprensa e caos nas redes sociais. [cite: 193] Eles não tentam ser um símbolo, mas sabem que são um e não fogem disso. [cite: 197] Viés é um herói discreto para os jovens despertados, especialmente aqueles que questionam a identidade. [cite: 217]",
+    "habilidades_por_forma": {
+      "forma_masculina": "Repulsor - Emite um campo de repulsão centrado em seu corpo, podendo empurrar objetos, pessoas ou forças com extrema precisão. [cite: 198, 199]",
+      "forma_feminina": "Atrator - Puxa objetos em sua direção com controle magnético, podendo redirecionar projéteis ou desarmar inimigos. [cite: 202, 203]",
+      "forma_bigenero": "Viés - Combina atração e repulsão, permitindo que orbitem objetos, criem campos de detritos em espiral e lancem projéteis ao redor de si. É taticamente a forma mais fluida e imprevisível. [cite: 205, 206, 207]"
+    },
+    "caracteristicas_notaveis": "Usa pronomes neutros (they/them) universalmente em público, mas sente-se confortável com quaisquer pronomes dependendo da forma. [cite: 211] Rumores dizem que Viés nunca teve um mentor apropriado, aprendendo por instinto e observação. [cite: 212] Evita violência desnecessária e toma decisões baseadas no contexto, não no livro de regras. [cite: 215]"
+  },
+  {
+    "id": "flashpoint",
+    "tipo": "personagem",
+    "codinome": "Flashpoint",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Ele é a pessoa mais barulhenta da sala, mesmo parado. [cite: 396] Impetuoso, implacavelmente otimista e cheio de energia, ele é do tipo que tem a energia de um irmão mais velho: o primeiro a assumir a culpa e a transformar o perigo em um jogo. [cite: 397, 399] Ele prospera sob pressão e, no campo, é um borrão de caos controlado. [cite: 401] Fãs amam seu estilo explosivo e confiança. [cite: 403]",
+    "habilidades": "Seus poderes o tornam um foguete vivo, acumulando energia cinética através do movimento e liberando-a em explosões de movimento e impacto. [cite: 398]"
+  },
+  {
+    "id": "spoiler",
+    "tipo": "personagem",
+    "codinome": "Spoiler",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Ela é a consciência silenciosa da equipe, falando apenas quando importa. [cite: 408] Lê as pessoas com foco de laser e tem um senso de humor seco e discreto. [cite: 409] Publicamente, é vista como calma e misteriosa, a 'séria' do grupo. [cite: 411] Ela não é fria, é deliberada. [cite: 414]",
+    "habilidades": "Ela pode amortecer um único campo sensorial (luz, som) em um determinado raio com precisão aterrorizante, usando-o para furtividade e controle de multidões. [cite: 406]"
+  },
+  {
+    "id": "chisel",
+    "tipo": "personagem",
+    "codinome": "Chisel",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Chisel é a definição de perseverança. [cite: 414] É ele quem levanta vigas caídas ou ancora linhas de defesa com determinação. [cite: 416] É humilde, inabalavelmente gentil e de fala mansa, frequentemente visto ajudando os outros a treinar. [cite: 417] As crianças o chamam de 'o gigante gentil' e ele faz jus ao apelido. [cite: 418]",
+    "habilidades": "Quanto mais tempo ele se concentra em uma tarefa, como segurar uma posição ou proteger uma equipe, mais forte ele fica. [cite: 415]"
+  },
+  {
+    "id": "viceroy",
+    "tipo": "personagem",
+    "codinome": "Viceroy",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Viceroy não precisa levantar a voz para ser ouvido. [cite: 421] Ele é o estrategista e debatedor da equipe. [cite: 424] Impecavelmente vestido, infalivelmente cortês e sempre no controle de sua imagem, ele representa a ideia de que o poder pode ser elegante. [cite: 424] Para os fãs mais jovens, ele é admirado por sua confiança régia e inteligência calma. [cite: 427] Para a mídia, ele é o 'mestre de xadrez' dos Vanguards. [cite: 428]",
+    "habilidades": "Com um toque de precisão e equilíbrio, ele altera sutilmente as respostas musculares dos oponentes, redirecionando, desequilibrando e neutralizando o conflito antes que ele comece. [cite: 422]"
+  },
+  {
+    "id": "kinesis",
+    "tipo": "personagem",
+    "codinome": "Kinesis",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Kinesis é velocidade pura com um cinto de tecnologia. [cite: 429] Especializada em equipamentos de mobilidade, ela está constantemente atualizando equipamentos como ganchos, botas de salto e patins aéreos para tornar a equipe mais rápida e adaptável. [cite: 430] Ela fala rápido e pensa mais rápido ainda. [cite: 431] Trata a equipe como uma segunda família e a customização de equipamentos como terapia. [cite: 432] Ela tem um culto de seguidores nas redes sociais graças às suas demonstrações de equipamentos. [cite: 433] Há rumores de que ela é uma estagiária, passando por treinamentos com Downdraft. [cite: 439]",
+    "habilidades": "Especialista em equipamentos de mobilidade, constantemente redesenhando ferramentas para tornar a equipe mais rápida e leve. [cite: 430]"
+  },
+  {
+    "id": "lockshot",
+    "tipo": "personagem",
+    "codinome": "Lockshot",
+    "afiliacao": "The Vanguards.",
+    "visao_geral": "Se o resto da equipe é jazz, ele é um metrônomo. [cite: 441] Reservado e introvertido, ele frequentemente usa equipamentos de amortecimento de som mesmo fora de missão e odeia holofotes e entrevistas. [cite: 444] Seu sério comprometimento o torna profundamente respeitado. [cite: 445] Ele não é frio, apenas acredita que a maioria das coisas é melhor não ser dita. [cite: 447]",
+    "habilidades": "Sua habilidade única de mira travada permite que ele atinja alvos marcados mesmo ao redor de cantos ou através de cobertura visual; ele pode redirecionar qualquer projétil em pleno voo para atingi-lo, independentemente de paredes, vento ou física. [cite: 443]"
+  },
+  {
+    "id": "o_terceiro_despertar",
+    "tipo": "lore_evento",
+    "titulo": "The Third Awakening",
+    "descricao_evento": "For a very brief moment, just seconds, an incandescent light erupted across the entire planet. Not a beam. Not lightning. Not an aurora. It was as if the very sky dissolved into white, simultaneously everywhere on Earth. No official records explain its origin. Satellites were blinded. Radars malfunctioned. What we have are witness accounts, sharing a common feeling: 'It was like something was looking back.'",
+    "contexto_historico": {
+      "primeiro_despertar": "The phenomenon where certain individuals develop unusual abilities accompanied by a mark, often linked to Saturn. The first major event was marked by the appearance of a mysterious light and the emergence of the first visible marks on people around the globe.",
+      "segundo_despertar": "It was not an explosive or visible event like the first. It happened more passively, almost silently. Children began to be born already bearing the mark and abilities, as if the awakening had become embedded in the new generation. This gave rise to the term 'spontaneous awakened,' since these individuals did not need to experience the light directly. It was a gradual phenomenon, unnoticed by the general public.",
+      "comparacao_terceiro_despertar": "The current event, which we are calling the Third Awakening, appears to be far more intense and widespread than the previous ones, affecting people who had no prior signs of awakening."
+    },
+    "natureza_do_evento": "Unlike the First Awakening, described as 'spiritual' or 'calm,' the Third Awakening came with a raw feeling of disorder, emotional instability, and even internal violence. Some people cried without reason, tried to hurt themselves, or laughed uncontrollably in the minutes after the light. Some say something different awakened with the world, or awoke beneath it.",
+    "impacto_atual": "There is no official confirmation yet of a mass emergence of new awakened. However, users are already reporting unusual activations, including from people who never showed any signs before.",
+    "orientacoes_comunidade": {
+      "pontos_de_alerta": [
+        "New marks appearing on the body.",
+        "Strange behavior in acquaintances, coworkers, or family members.",
+        "Abnormal events in public places (blackouts, shattered glass, sudden outbursts).",
+        "Unconfirmed reports of disappearances or abductions."
+      ],
+      "recomendacao": "We encourage users to share responsibly, respecting anonymity and avoiding judgment. Many of these individuals are going through unprecedented experiences and may not understand what is happening to them."
+    },
+    "citacao_final": "“The sky breaks twice, and twice closes. On the thrice, there will be no ceiling.”"
+  },
+  {
+    "id": "arisa",
+    "tipo": "organizacao",
+    "nome_completo": "ARISA – Awakened Response, Investigation & Security Agency",
+    "lema": "Contain. Protect. Inform. Adapt.",
+    "visao_geral": "ARISA is a federal agency operating under the United States Department of Homeland Security, tasked with handling all awakened-related incidents, policies, and public management. It acts as both a paramilitary and a civilian oversight organization designed to monitor, respond to, and guide awakened activities in the U.S. and Canada. It combines law enforcement, intelligence gathering, public relations, and containment operations.",
+    "proposito_e_mandato": [
+      "Containment: Rapid, tactical response to awakened-related threats with an emphasis on non-lethal neutralization.",
+      "Oversight: Regulation of awakened powers through a national legal framework.",
+      "Investigation: Surveillance, intelligence gathering, and forensic analysis of awakened-related events.",
+      "Public Assurance: Managing public perception, safety, and awareness regarding awakened activity."
+    ],
+    "estrutura_legal": {
+      "codigo": "ARJOC (Awakened Regulation & Justice Operations Code)",
+      "descricao": "A federal legal structure passed by Congress to address gaps in pre-existing criminal law. ARJOC defines the legal limits of ability use, criteria for self-defense, penalties for awakened-specific offenses, and emergency response protocols."
+    },
+    "relacoes_publicas": "ARISA's secondary function is managing public perception. This includes media coordination (briefings and embargoes), narrative shaping through collaboration with film studios and PR firms, and releasing safety guides to maintain public trust. Control of information is seen as damage mitigation to prevent panic and misinformation.",
+    "equipamentos_e_protocolos": {
+      "armadura": "Personal Armor Units (PAUs): Multi-layered suits resistant to thermal, kinetic, and chemical-based powers.",
+      "armamento_nao_letal": [
+        "Inhibitor gel: Immobilizes targets while disrupting energy channels.",
+        "Focus disruptors: Emit pulses that impair concentration for psychic-class awakeneds.",
+        "Vector inhibitors: Limit movement-based abilities like teleportation or super-speed."
+      ],
+      "veiculos": "Purpose-built, with signature green-and-white emergency lights and onboard AI systems trained on awakened behavior patterns."
+    },
+    "sistema_de_registro": {
+      "nome": "The National Awakened Registry",
+      "obrigatoriedade": "While not mandatory, registration is strongly encouraged.",
+      "beneficios": [
+        "Legal immunity in certain self-defense cases.",
+        "Access to safe-use zones for power testing.",
+        "Psychological and medical support.",
+        "Eligibility for employment in licensed awakened professions."
+      ],
+      "nao_registrados": "Unregistered individuals are not criminalized by default, but repeated public use of powers can lead to investigation."
+    },
+    "vigilancia_e_controversias": "ARISA is frequently criticized for its broad surveillance programs, which include urban power-signature sensors, social media analysis tools, and embedded analysts in hospitals and emergency services. These systems raise ongoing concerns regarding privacy and government overreach. Despite controversies, most agree that a structured, national response is necessary."
+  },
+  {
+  "id": "seraphim",
+  "tipo": "personagem",
+  "lingua": "ingles",
+  "codinome": "Seraphim",
+  "nome_real": "Desconhecido",
+  "afiliacao": "ARISA (primária), colaboradora próxima da The Paramount",
+  "regiao_operacao": "Estados Unidos da América (baseada no quartel-general da ARISA, opera globalmente)",
+  "status": "Ativa",
+  "visao_geral": "Seraphim não é um membro da Paramount, mas sua presença é sentida em quase todas as grandes operações que a ARISA autoriza. Oficialmente, ela é uma despertada de classe cognitiva certificada (Cognivore), mas extraoficialmente, é o tipo cognitivo mais avançado já registrado. Ela não apenas processa informações; ela interpreta árvores de probabilidade e transforma dilemas táticos em decisões elegantes. Conhecida por seu comportamento calmo e profundamente empático, Seraphim não apenas vence confrontos, mas os previne. A maioria dos civis a conhece não por batalhas, mas por seu envolvimento em transmissões educacionais, campanhas de desescalada e pelo desenvolvimento do sistema de assistência de IA, o SERAPH.",
+  "habilidades": [
+    "Previsão de campo de batalha baseada em cognição avançada e adaptação em tempo real.",
+    "Integração com trajes estratégicos e pilotagem de múltiplas formas (ela frequentemente utiliza exotrajes modulares para cenários de resgate, reconhecimento, supressão, etc.).",
+    "Varredura ambiental rápida e reconhecimento de padrões.",
+    "Retransmissão de comunicação contínua entre múltiplas equipes e sistemas da ARISA."
+  ],
+  "caracteristicas_notaveis": [
+    "Nunca aparece com o mesmo traje duas vezes; suas configurações de armadura se adaptam a cada missão.",
+    "Fala de forma suave e educada, mas é firme quando contrariada por uma lógica falha.",
+    "Frequentemente encerra entrevistas com frases como: 'Você já sabia a resposta. Eu apenas ajudei você a encontrá-la.'",
+    "Tem uma reputação quase mítica entre os agentes novatos como 'a única pessoa que está sempre certa'.",
+    "Frequentemente enviada como mediadora entre agências internacionais e a ARISA."
+  ],
+  "traje_e_aparencia": "Seraphim veste trajes brancos, cromados e elegantes com detalhes dourados, cada um ligeiramente diferente. A maioria dos trajes deixa a metade inferior de seu rosto visível, mostrando olhos de um dourado pálido e feições calmas. Sua variante de assinatura, conhecida informalmente como 'Modelo Providência', apresenta um arranjo circular semelhante a uma coroa atrás do capacete, estilizado como um quadro de sensores e drones flutuantes que orbitam como satélites. Cada traje possui placas reativas à luz e caligrafia sutil gravada nas manoplas.",
+  "sistema_seraph": {
+    "nome_completo": "SERAPH (Strategic Evaluation & Response Analysis for Paranormal Hazards) or S.E.R.A.P.H",
+    "criadora_creditada": "Seraphim",
+    "descricao": "Um sistema de assistente de IA público que interage com civis e autoridades para relatar, analisar e responder a incidentes com despertados. Para os civis, SERAPH é um assistente prestativo. Para os heróis, é um conselheiro tático."
+  }
+},
+  {
+  "id": "aegis",
+  "tipo": "personagem",
+  "lingua": "ingles",
+  "codinome": "Aegis",
+  "nome_real": "Desconhecido",
+  "afiliacao": "Líder da The Paramount, Membro Fundador da Axis Mundi",
+  "regiao_operacao": "Estados Unidos da América",
+  "status": "Ativo",
+  "reputacao_publica": "Excepcionalmente positiva. Frequentemente referido na mídia como 'a fundação da era dos despertados' ou 'o padrão ouro'.",
+  "visao_geral": "Aegis é reconhecido como o primeiro despertado a assumir publicamente o papel de protetor global e, até hoje, permanece uma figura central na percepção pública do heroísmo. Calmo, eloquente e inabalavelmente equilibrado, ele se tornou um símbolo político e cultural durante um tempo de incerteza. Apesar de suas origens misteriosas, Aegis é amado pelas massas, respeitado pelos governos e idolatrado pelas novas gerações de despertados.",
+  "habilidades_alegadas": [
+    "Performance física aprimorada (força, velocidade, reflexos).",
+    "Clareza e compostura mental elevadas em ambientes de alto estresse.",
+    "Resistência extremamente alta à dor, fadiga e poderes externos.",
+    "Aura de intimidação ou presença; alguns afirmam que ele pode encerrar confrontos simplesmente entrando em uma sala."
+  ],
+  "caracteristicas_notaveis": [
+    "Sempre mascarado: Nunca visto em público sem sua armadura.",
+    "Comportamento diplomático: Mantém a calma mesmo quando outros entram em pânico e evita confrontos públicos.",
+    "Histórico impecável: Zero baixas civis conhecidas em qualquer uma de suas operações públicas."
+  ],
+  "opiniao_publica": "A grande maioria do público vê Aegis como um símbolo nobre e incorruptível do que os despertados deveriam aspirar a ser, apesar do ceticismo ocasional online. Ele aparece em livros didáticos, mercadorias heroicas e campanhas cívicas, sendo considerado por muitos não apenas um protetor, mas um pilar do novo mundo."
+}
+]
