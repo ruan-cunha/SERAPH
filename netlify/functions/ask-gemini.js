@@ -2,7 +2,7 @@
 // Mude esta linha para 'openai' para usar o ChatGPT, ou 'gemini' para usar o Gemini.
 const ACTIVE_AI_PROVIDER = 'gemini'; 
 //const ACTIVE_AI_PROVIDER = 'openai';
-const ACTIVE_AI_PROVIDER = 'openrouter';
+//const ACTIVE_AI_PROVIDER = 'openrouter';
 const fetch = require("node-fetch");
 
 // Importa as duas bibliotecas
