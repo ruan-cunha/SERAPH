@@ -2,7 +2,6 @@
 // Mude esta linha para 'openai' para usar o ChatGPT, ou 'gemini' para usar o Gemini.
 const ACTIVE_AI_PROVIDER = 'gemini'; 
 //const ACTIVE_AI_PROVIDER = 'openai';
-const fetch = require("node-fetch");
 
 // Importa as duas bibliotecas
 const { GoogleGenerativeAI } = require("@google/generative-ai");
