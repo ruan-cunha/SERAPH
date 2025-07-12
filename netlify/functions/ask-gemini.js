@@ -1,24 +1,18 @@
-// --- ⭐ PASSO 1: CONFIGURAÇÃO DO PROVEDOR DE IA ⭐ ---
-// Mude esta linha para 'openai' para usar o ChatGPT, ou 'gemini' para usar o Gemini.
+
 const ACTIVE_AI_PROVIDER = 'gemini'; 
 //const ACTIVE_AI_PROVIDER = 'openai';
 
-// Importa as duas bibliotecas
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const OpenAI = require("openai");
+//const OpenAI = require("openai");
 
-// Carrega o seu banco de dados (lore)
 const db1 = require('../../data/lore.json');
-// Adicione seus outros arquivos de lore aqui se tiver
-// const db2 = require('../../data/base2.json');
+
 const fullDatabase = [...db1];
 
-// --- Inicializa os clientes (mas só usaremos um por vez) ---
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+//const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 
-// A sua função de busca de contexto não precisa de alterações
 function findRelevantContext(question, database) {
     const questionLower = question.toLowerCase();
     const questionWords = new Set(questionLower.split(/[\s,.-]+/).filter(w => w.length > 2));
@@ -43,7 +37,6 @@ function findRelevantContext(question, database) {
 }
 
 
-// Handler principal da função
 exports.handler = async (event) => {
     if (event.httpMethod !== "POST") {
         return { statusCode: 405, body: "Method Not Allowed" };
