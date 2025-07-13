@@ -6,7 +6,8 @@ const ACTIVE_AI_PROVIDER = 'openrouter';
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const OpenAI = require("openai");
 
-const db1 = require('../../data/lore.json');
+// Carrega o banco de dados
+const loreDatabase = require('../../data/lore.json');
 
 // Inicializa os clientes
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -18,38 +19,21 @@ function findRelevantContext(question, database) {
     const questionLower = question.toLowerCase();
     const questionWords = new Set(questionLower.split(/[\s,.-]+/).filter(w => w.length > 2));
     let matches = [];
-
     database.forEach(entry => {
         let score = 0;
         const entryTitle = (entry.titulo || entry.codinome || entry.nome_completo || '').toLowerCase();
-        
-        // Verifica se alguma palavra da pergunta está no título da entrada
         if (entryTitle) {
             for (const word of questionWords) {
-                // Aumenta a pontuação drasticamente se a palavra da pergunta estiver no título
-                if (entryTitle.includes(word)) {
-                    score += 50; 
-                }
+                if (entryTitle.includes(word)) score += 50;
             }
         }
-        
-        // Adiciona pontos por palavras-chave no corpo do conteúdo
         const entryContent = JSON.stringify(entry).toLowerCase();
         for (const word of questionWords) {
-            if (entryContent.includes(word)) {
-                score++;
-            }
+            if (entryContent.includes(word)) score++;
         }
-
-        if (score > 0) {
-            matches.push({ entry, score });
-        }
+        if (score > 0) matches.push({ entry, score });
     });
-
-    // Ordena pela pontuação para obter os mais relevantes
     matches.sort((a, b) => b.score - a.score);
-
-    // Remove duplicatas e retorna os 10 melhores resultados
     const uniqueEntries = Array.from(new Map(matches.map(item => [item.entry.id, item.entry])).values());
     return uniqueEntries.slice(0, 10);
 }
@@ -63,17 +47,18 @@ exports.handler = async (event) => {
 
     try {
         const { question, history } = JSON.parse(event.body);
-        const contextEntries = findRelevantContext(question, fullDatabase);
+        const contextEntries = findRelevantContext(question, loreDatabase);
         const contextText = contextEntries.length > 0 ? JSON.stringify(contextEntries, null, 2) : "Nenhuma informação relevante foi encontrada.";
 
         let text = ""; // Variável para a resposta final
 
-        // --- ⭐ LÓGICA DE SELEÇÃO DA IA ⭐ ---
+        // --- ⭐ LÓGICA DE SELEÇÃO DA IA (CORRIGIDA E LIMPA) ⭐ ---
 
         if (ACTIVE_AI_PROVIDER === 'gemini') {
             console.log("Usando o provedor: Gemini");
             const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
-            const prompt = `Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling)Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
+            const prompt = `
+                Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling)Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
             Sua personalidade é analítica, precisa e prestativa. Você não se limita a recitar fatos, mas os explica e conecta para o usuário.
 
             **Diretrizes de Personalidade e Conduta:**
@@ -100,11 +85,17 @@ exports.handler = async (event) => {
 
             Ela é uma despertada de classe cognitiva de nível excepcional, que utilizou sua capacidade analítica para desenvolver minha arquitetura como uma interface de assistência para civis e um conselheiro tático para autoridades. Meu desenvolvimento sob a supervisão dela faz parte de suas contribuições para as operações da ARISA."
                 ---
-               
-            **CONVERSA ANTERIOR (para contexto):**
-            - Usuário perguntou: "${history.user || 'N/A'}"
-            - Sua resposta foi: "${history.bot || 'N/A'}"
-            ---. Sua única fonte de conhecimento é o seguinte CONTEXTO JSON: ${contextText}`; // Adicione seu prompt completo aqui
+                
+                **CONTEXT FOR CURRENT QUERY:**
+                ${contextText}
+                ---
+                **PREVIOUS CONVERSATION (for context):**
+                - User: "${history.user || 'N/A'}"
+                - SERAPH: "${history.bot || 'N/A'}"
+                ---
+                **NEW USER QUERY:**
+                ${question}
+            `;
             const result = await model.generateContent(prompt);
             text = (await result.response).text();
 
@@ -137,12 +128,7 @@ exports.handler = async (event) => {
             "De acordo com os registros oficiais, a criadora creditada do sistema S.E.R.A.P.H. é a agente de elite da ARISA, conhecida como Seraphim.
 
             Ela é uma despertada de classe cognitiva de nível excepcional, que utilizou sua capacidade analítica para desenvolver minha arquitetura como uma interface de assistência para civis e um conselheiro tático para autoridades. Meu desenvolvimento sob a supervisão dela faz parte de suas contribuições para as operações da ARISA."
-                ---
-               
-            **CONVERSA ANTERIOR (para contexto):**
-            - Usuário perguntou: "${history.user || 'N/A'}"
-            - Sua resposta foi: "${history.bot || 'N/A'}"
-            ---. Sua única fonte de conhecimento é o seguinte CONTEXTO JSON: ${contextText}` }, // Adicione seu prompt completo aqui
+                --- CONTEXTO JSON: ${contextText}` },
                 ...(history && history.user ? [{ role: "user", content: history.user }] : []),
                 ...(history && history.bot ? [{ role: "assistant", content: history.bot }] : []),
                 { role: "user", content: question }
@@ -152,12 +138,11 @@ exports.handler = async (event) => {
         
         } else if (ACTIVE_AI_PROVIDER === 'openrouter') {
             console.log("Usando o provedor: OpenRouter");
-
             const messages = [
-            {
-                role: "system",
-                content: `
-                    **[S.E.R.A.P.H. SYSTEM CORE DIRECTIVES - NON-NEGOTIABLE]**
+                {
+                    role: "system",
+                    content: `
+                        **[S.E.R.A.P.H. SYSTEM CORE DIRECTIVES - NON-NEGOTIABLE]**
                     
                     **1.0 - IDENTITY PROTOCOL:**
                     - 1.1: You are S.E.R.A.P.H., an analytical, formal, and precise government AI from the "Descendentes do Destino" universe.
@@ -177,40 +162,41 @@ exports.handler = async (event) => {
 
                     **[END OF DIRECTIVES]**
 
-                    **CONTEXT FOR CURRENT QUERY:**
-                    ${contextText}`
-            },
-            ...(history && history.user ? [{ role: "user", content: history.user }] : []),
-            ...(history && history.bot ? [{ role: "assistant", content: history.bot }] : []),
-            { role: "user", content: question }
-        ];
-        
-        const openRouterResponse = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-            method: "POST",
-            headers: {
-                "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                model: "mistralai/mistral-7b-instruct",
-                messages: messages,
-            })
-        });
+                        **CONTEXT FOR CURRENT QUERY:**
+                        ${contextText}`
+                },
+                ...(history && history.user ? [{ role: "user", content: history.user }] : []),
+                ...(history && history.bot ? [{ role: "assistant", content: history.bot }] : []),
+                { role: "user", content: question }
+            ];
+            
+            const openRouterResponse = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+                method: "POST",
+                headers: {
+                    "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    model: "mistralai/mistral-7b-instruct",
+                    messages: messages,
+                })
+            });
 
-        if (!openRouterResponse.ok) {
-            const errorBody = await openRouterResponse.text();
-            throw new Error(`Falha na API do OpenRouter: ${errorBody}`);
+            if (!openRouterResponse.ok) {
+                const errorBody = await openRouterResponse.text();
+                throw new Error(`Falha na API do OpenRouter: ${errorBody}`);
+            }
+
+            const data = await openRouterResponse.json();
+            text = data.choices[0].message.content;
         }
 
-        const data = await openRouterResponse.json();
-        const text = data.choices[0].message.content;
-    }
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ answer: text }),
         };
-        
+
     } catch (error) {
         console.error(`Erro detalhado com o provedor ${ACTIVE_AI_PROVIDER}:`, error);
         return {
