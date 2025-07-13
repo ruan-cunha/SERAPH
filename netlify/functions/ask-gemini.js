@@ -1,6 +1,6 @@
 // --- ⭐ PASSO 1: SELECIONE O PROVEDOR DE IA ⭐ ---
 // Mude esta linha para 'gemini', 'openai' ou 'huggingface'.
-const ACTIVE_AI_PROVIDER = 'huggingface';
+const ACTIVE_AI_PROVIDER = 'openai';
 
 // --- Importações e Configurações Iniciais ---
 const { GoogleGenerativeAI } = require("@google/generative-ai");
