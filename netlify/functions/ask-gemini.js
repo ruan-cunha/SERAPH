@@ -185,7 +185,7 @@ exports.handler = async (event) => {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    model: "mistralai/mistral-7b-instruct-free", // Modelo gratuito e rápido do OpenRouter
+                    model: "mistralai/mistral-7b-instruct", // Modelo gratuito e rápido do OpenRouter
                     messages: messages,
                 })
             });
