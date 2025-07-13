@@ -204,12 +204,13 @@ exports.handler = async (event) => {
 
         const data = await openRouterResponse.json();
         const text = data.choices[0].message.content;
+    }
         return {
             statusCode: 200,
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ answer: text }),
         };
-
+        
     } catch (error) {
         console.error(`Erro detalhado com o provedor ${ACTIVE_AI_PROVIDER}:`, error);
         return {
