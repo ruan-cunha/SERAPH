@@ -197,7 +197,7 @@ exports.handler = async (event) => {
                 ${question}
             `;
             
-            const API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1";
+            const API_URL = "https://api-inference.huggingface.co/models/mistralai/gpt2";
             const hfResponse = await fetch(API_URL, {
                 method: 'POST',
                 headers: {
