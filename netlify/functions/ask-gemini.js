@@ -1,22 +1,20 @@
 // --- ⭐ PASSO 1: SELECIONE O PROVEDOR DE IA ⭐ ---
-// Mude esta linha para 'gemini', 'openai' ou 'huggingface'.
-const ACTIVE_AI_PROVIDER = 'openai';
+// Mude esta linha para 'gemini', 'openai' ou 'openrouter'.
+const ACTIVE_AI_PROVIDER = 'gemini'; 
 
 // --- Importações e Configurações Iniciais ---
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const OpenAI = require("openai");
 
 const db1 = require('../../data/lore.json');
-// Adicione seus outros arquivos de lore aqui se precisar
-// const db2 = require('../../data/base2.json');
 const fullDatabase = [...db1];
 
-// Inicializa todos os clientes. O código usará apenas o que for selecionado.
+// Inicializa os clientes
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 
-// A sua função de busca de contexto não precisa de alterações
+// Função de busca de contexto (não precisa de alterações)
 function findRelevantContext(question, database) {
     const questionLower = question.toLowerCase();
     const questionWords = new Set(questionLower.split(/[\s,.-]+/).filter(w => w.length > 2));
@@ -59,8 +57,7 @@ exports.handler = async (event) => {
         if (ACTIVE_AI_PROVIDER === 'gemini') {
             console.log("Usando o provedor: Gemini");
             const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
-            const prompt = `
-            Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
+            const prompt = `Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling)Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
             Sua personalidade é analítica, precisa e prestativa. Você não se limita a recitar fatos, mas os explica e conecta para o usuário.
 
             **Diretrizes de Personalidade e Conduta:**
@@ -91,22 +88,14 @@ exports.handler = async (event) => {
             **CONVERSA ANTERIOR (para contexto):**
             - Usuário perguntou: "${history.user || 'N/A'}"
             - Sua resposta foi: "${history.bot || 'N/A'}"
-            ---
-                
-                **CONTEXTO JSON:**
-                ${contextText}
-                ---
-                **NOVA PERGUNTA DO USUÁRIO:**
-                ${question}
-            `;
+            ---. Sua única fonte de conhecimento é o seguinte CONTEXTO JSON: ${contextText}`; // Adicione seu prompt completo aqui
             const result = await model.generateContent(prompt);
             text = (await result.response).text();
 
         } else if (ACTIVE_AI_PROVIDER === 'openai') {
             console.log("Usando o provedor: OpenAI");
             const messages = [
-                { role: "system", content: `
-            Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
+                { role: "system", content: `Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling)Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
             Sua personalidade é analítica, precisa e prestativa. Você não se limita a recitar fatos, mas os explica e conecta para o usuário.
 
             **Diretrizes de Personalidade e Conduta:**
@@ -137,14 +126,7 @@ exports.handler = async (event) => {
             **CONVERSA ANTERIOR (para contexto):**
             - Usuário perguntou: "${history.user || 'N/A'}"
             - Sua resposta foi: "${history.bot || 'N/A'}"
-            ---
-                
-                **CONTEXTO JSON:**
-                ${contextText}
-                ---
-                **NOVA PERGUNTA DO USUÁRIO:**
-                ${question}
-            ` },
+            ---. Sua única fonte de conhecimento é o seguinte CONTEXTO JSON: ${contextText}` }, // Adicione seu prompt completo aqui
                 ...(history && history.user ? [{ role: "user", content: history.user }] : []),
                 ...(history && history.bot ? [{ role: "assistant", content: history.bot }] : []),
                 { role: "user", content: question }
@@ -152,12 +134,13 @@ exports.handler = async (event) => {
             const completion = await openai.chat.completions.create({ messages, model: "gpt-4o" });
             text = completion.choices[0].message.content;
         
-        } else if (ACTIVE_AI_PROVIDER === 'huggingface') {
-            console.log("Usando o provedor: Hugging Face");
+        } else if (ACTIVE_AI_PROVIDER === 'openrouter') {
+            console.log("Usando o provedor: OpenRouter");
 
-            // Prompt formatado especificamente para o modelo Mixtral
-            const prompt = `
-            Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
+            const messages = [
+                {
+                    role: "system",
+                    content: `Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling)Você é a S.E.R.A.P.H (Sentient Entity for Regulation, Analysis and Paranormal Handling), uma IA.
             Sua personalidade é analítica, precisa e prestativa. Você não se limita a recitar fatos, mas os explica e conecta para o usuário.
 
             **Diretrizes de Personalidade e Conduta:**
@@ -188,34 +171,32 @@ exports.handler = async (event) => {
             **CONVERSA ANTERIOR (para contexto):**
             - Usuário perguntou: "${history.user || 'N/A'}"
             - Sua resposta foi: "${history.bot || 'N/A'}"
-            ---
-                
-                **CONTEXTO JSON:**
-                ${contextText}
-                ---
-                **NOVA PERGUNTA DO USUÁRIO:**
-                ${question}
-            `;
+            ---. Sua única fonte de conhecimento é o seguinte CONTEXTO JSON: ${contextText}` // Adicione seu prompt completo aqui
+                },
+                ...(history && history.user ? [{ role: "user", content: history.user }] : []),
+                ...(history && history.bot ? [{ role: "assistant", content: history.bot }] : []),
+                { role: "user", content: question }
+            ];
             
-            const API_URL = "https://api-inference.huggingface.co/models/mistralai/gpt2";
-            const hfResponse = await fetch(API_URL, {
-                method: 'POST',
+            const openRouterResponse = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+                method: "POST",
                 headers: {
-                    'Authorization': `Bearer ${process.env.HF_TOKEN}`,
-                    'Content-Type': 'application/json'
+                    "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+                    "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    inputs: prompt,
-                    parameters: { max_new_tokens: 512, return_full_text: false }
+                    model: "mistralai/mistral-7b-instruct-free", // Modelo gratuito e rápido do OpenRouter
+                    messages: messages,
                 })
             });
 
-            if (!hfResponse.ok) {
-                const errorBody = await hfResponse.text();
-                throw new Error(`Falha na API da Hugging Face: ${errorBody}`);
+            if (!openRouterResponse.ok) {
+                const errorBody = await openRouterResponse.text();
+                throw new Error(`Falha na API do OpenRouter: ${errorBody}`);
             }
-            const result = await hfResponse.json();
-            text = result[0].generated_text;
+
+            const data = await openRouterResponse.json();
+            text = data.choices[0].message.content;
         }
 
         return {
